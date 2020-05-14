@@ -1,0 +1,1772 @@
+2020-05-12 19:40:11,107 ERROR 90253 [blog.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/createError.js:16:15)
+    at settle (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/adapters/http.js:236:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  config:
+   { url: 'http://127.0.0.1:9005/api/blog/list',
+     method: 'get',
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.19.2' },
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 15000,
+     adapter: [Function: httpAdapter],
+     xsrfCookieName: 'csrfToken',
+     xsrfHeaderName: 'x-csrf-token',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     data: undefined },
+  request:
+   ClientRequest {
+     _events:
+      [Object: null prototype] {
+        socket: [Array],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Array],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 426,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 68237,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 432,
+           [Symbol(triggerId)]: 429 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 426,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 68237,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 432,
+           [Symbol(triggerId)]: 429 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9005\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     insecureHTTPParser: undefined,
+     path: '/api/blog/list',
+     _ended: true,
+     res:
+      IncomingMessage {
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Socket],
+        connection: [Socket],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Socket],
+        _consuming: false,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:9005/api/blog/list',
+        redirects: [] },
+     aborted: undefined,
+     timeoutCb: [Function: emitRequestTimeout],
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable:
+      Writable {
+        _writableState: [WritableState],
+        writable: true,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _redirects: [],
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:9005/api/blog/list' },
+     [Symbol(isCorked)]: false,
+     [Symbol(outHeadersKey)]:
+      [Object: null prototype] { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response:
+   { status: 404,
+     statusText: 'Not Found',
+     headers:
+      { vary: 'Origin',
+        'content-type': 'text/plain; charset=utf-8',
+        'content-length': '9',
+        date: 'Tue, 12 May 2020 11:40:11 GMT',
+        connection: 'close' },
+     config:
+      { url: 'http://127.0.0.1:9005/api/blog/list',
+        method: 'get',
+        headers: [Object],
+        transformRequest: [Array],
+        transformResponse: [Array],
+        timeout: 15000,
+        adapter: [Function: httpAdapter],
+        xsrfCookieName: 'csrfToken',
+        xsrfHeaderName: 'x-csrf-token',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        data: undefined },
+     request:
+      ClientRequest {
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Socket],
+        connection: [Socket],
+        _header:
+         'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9005\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Agent],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        insecureHTTPParser: undefined,
+        path: '/api/blog/list',
+        _ended: true,
+        res: [IncomingMessage],
+        aborted: undefined,
+        timeoutCb: [Function: emitRequestTimeout],
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Writable],
+        [Symbol(isCorked)]: false,
+        [Symbol(outHeadersKey)]: [Object] },
+     data: 'Not Found' },
+  isAxiosError: true,
+  toJSON: [Function] }
+2020-05-12 19:40:50,080 ERROR 90253 [blog.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/createError.js:16:15)
+    at settle (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/adapters/http.js:236:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  config:
+   { url: 'http://127.0.0.1:9005/api/blog/list',
+     method: 'get',
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.19.2' },
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 15000,
+     adapter: [Function: httpAdapter],
+     xsrfCookieName: 'csrfToken',
+     xsrfHeaderName: 'x-csrf-token',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     data: undefined },
+  request:
+   ClientRequest {
+     _events:
+      [Object: null prototype] {
+        socket: [Array],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Array],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 659,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 107211,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 687,
+           [Symbol(triggerId)]: 662 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 659,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 107211,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 687,
+           [Symbol(triggerId)]: 662 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9005\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     insecureHTTPParser: undefined,
+     path: '/api/blog/list',
+     _ended: true,
+     res:
+      IncomingMessage {
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Socket],
+        connection: [Socket],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Socket],
+        _consuming: false,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:9005/api/blog/list',
+        redirects: [] },
+     aborted: undefined,
+     timeoutCb: [Function: emitRequestTimeout],
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable:
+      Writable {
+        _writableState: [WritableState],
+        writable: true,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _redirects: [],
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:9005/api/blog/list' },
+     [Symbol(isCorked)]: false,
+     [Symbol(outHeadersKey)]:
+      [Object: null prototype] { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response:
+   { status: 404,
+     statusText: 'Not Found',
+     headers:
+      { vary: 'Origin',
+        'content-type': 'text/plain; charset=utf-8',
+        'content-length': '9',
+        date: 'Tue, 12 May 2020 11:40:50 GMT',
+        connection: 'close' },
+     config:
+      { url: 'http://127.0.0.1:9005/api/blog/list',
+        method: 'get',
+        headers: [Object],
+        transformRequest: [Array],
+        transformResponse: [Array],
+        timeout: 15000,
+        adapter: [Function: httpAdapter],
+        xsrfCookieName: 'csrfToken',
+        xsrfHeaderName: 'x-csrf-token',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        data: undefined },
+     request:
+      ClientRequest {
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Socket],
+        connection: [Socket],
+        _header:
+         'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9005\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Agent],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        insecureHTTPParser: undefined,
+        path: '/api/blog/list',
+        _ended: true,
+        res: [IncomingMessage],
+        aborted: undefined,
+        timeoutCb: [Function: emitRequestTimeout],
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Writable],
+        [Symbol(isCorked)]: false,
+        [Symbol(outHeadersKey)]: [Object] },
+     data: 'Not Found' },
+  isAxiosError: true,
+  toJSON: [Function] }
+2020-05-12 21:09:34,555 ERROR 95024 [blog.js] server render bundle error, try client render, the server render error { Error: Cannot find module '~antd/dist/antd.css'
+    at webpackMissingModule (webpack:///./app/web/page/blog/index.tsx?:14:45)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:14:139)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:154:1)
+    at __webpack_require__ (evalmachine.<anonymous>:26:30)
+    at evalmachine.<anonymous>:117:18
+    at evalmachine.<anonymous>:120:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7) code: 'MODULE_NOT_FOUND' }
+2020-05-13 10:43:02,048 ERROR 97623 [blog.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/createError.js:16:15)
+    at settle (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/adapters/http.js:236:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  config:
+   { url: 'http://127.0.0.1:9007/api/blog/list',
+     method: 'get',
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.19.2' },
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 15000,
+     adapter: [Function: httpAdapter],
+     xsrfCookieName: 'csrfToken',
+     xsrfHeaderName: 'x-csrf-token',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     data: undefined },
+  request:
+   ClientRequest {
+     _events:
+      [Object: null prototype] {
+        socket: [Array],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Array],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 1079,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 83804,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 1085,
+           [Symbol(triggerId)]: 1082 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 1079,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 83804,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 1085,
+           [Symbol(triggerId)]: 1082 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9007\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     insecureHTTPParser: undefined,
+     path: '/api/blog/list',
+     _ended: true,
+     res:
+      IncomingMessage {
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Socket],
+        connection: [Socket],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Socket],
+        _consuming: false,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:9007/api/blog/list',
+        redirects: [] },
+     aborted: undefined,
+     timeoutCb: [Function: emitRequestTimeout],
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable:
+      Writable {
+        _writableState: [WritableState],
+        writable: true,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _redirects: [],
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:9007/api/blog/list' },
+     [Symbol(isCorked)]: false,
+     [Symbol(outHeadersKey)]:
+      [Object: null prototype] { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response:
+   { status: 404,
+     statusText: 'Not Found',
+     headers:
+      { vary: 'Origin',
+        'content-type': 'text/plain; charset=utf-8',
+        'content-length': '9',
+        date: 'Wed, 13 May 2020 02:43:02 GMT',
+        connection: 'close' },
+     config:
+      { url: 'http://127.0.0.1:9007/api/blog/list',
+        method: 'get',
+        headers: [Object],
+        transformRequest: [Array],
+        transformResponse: [Array],
+        timeout: 15000,
+        adapter: [Function: httpAdapter],
+        xsrfCookieName: 'csrfToken',
+        xsrfHeaderName: 'x-csrf-token',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        data: undefined },
+     request:
+      ClientRequest {
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Socket],
+        connection: [Socket],
+        _header:
+         'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9007\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Agent],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        insecureHTTPParser: undefined,
+        path: '/api/blog/list',
+        _ended: true,
+        res: [IncomingMessage],
+        aborted: undefined,
+        timeoutCb: [Function: emitRequestTimeout],
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Writable],
+        [Symbol(isCorked)]: false,
+        [Symbol(outHeadersKey)]: [Object] },
+     data: 'Not Found' },
+  isAxiosError: true,
+  toJSON: [Function] }
+2020-05-13 10:43:23,713 ERROR 97623 [blog.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/createError.js:16:15)
+    at settle (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/adapters/http.js:236:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  config:
+   { url: 'http://127.0.0.1:9007/api/blog/list',
+     method: 'get',
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.19.2' },
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 15000,
+     adapter: [Function: httpAdapter],
+     xsrfCookieName: 'csrfToken',
+     xsrfHeaderName: 'x-csrf-token',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     data: undefined },
+  request:
+   ClientRequest {
+     _events:
+      [Object: null prototype] {
+        socket: [Array],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Array],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 1464,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 105474,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 1470,
+           [Symbol(triggerId)]: 1467 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 1464,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 105474,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 1470,
+           [Symbol(triggerId)]: 1467 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9007\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     insecureHTTPParser: undefined,
+     path: '/api/blog/list',
+     _ended: true,
+     res:
+      IncomingMessage {
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Socket],
+        connection: [Socket],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Socket],
+        _consuming: false,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:9007/api/blog/list',
+        redirects: [] },
+     aborted: undefined,
+     timeoutCb: [Function: emitRequestTimeout],
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable:
+      Writable {
+        _writableState: [WritableState],
+        writable: true,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _redirects: [],
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:9007/api/blog/list' },
+     [Symbol(isCorked)]: false,
+     [Symbol(outHeadersKey)]:
+      [Object: null prototype] { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response:
+   { status: 404,
+     statusText: 'Not Found',
+     headers:
+      { vary: 'Origin',
+        'content-type': 'text/plain; charset=utf-8',
+        'content-length': '9',
+        date: 'Wed, 13 May 2020 02:43:23 GMT',
+        connection: 'close' },
+     config:
+      { url: 'http://127.0.0.1:9007/api/blog/list',
+        method: 'get',
+        headers: [Object],
+        transformRequest: [Array],
+        transformResponse: [Array],
+        timeout: 15000,
+        adapter: [Function: httpAdapter],
+        xsrfCookieName: 'csrfToken',
+        xsrfHeaderName: 'x-csrf-token',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        data: undefined },
+     request:
+      ClientRequest {
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Socket],
+        connection: [Socket],
+        _header:
+         'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9007\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Agent],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        insecureHTTPParser: undefined,
+        path: '/api/blog/list',
+        _ended: true,
+        res: [IncomingMessage],
+        aborted: undefined,
+        timeoutCb: [Function: emitRequestTimeout],
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Writable],
+        [Symbol(isCorked)]: false,
+        [Symbol(outHeadersKey)]: [Object] },
+     data: 'Not Found' },
+  isAxiosError: true,
+  toJSON: [Function] }
+2020-05-13 10:43:40,769 ERROR 97623 [blog.js] server render bundle error, try client render, the server render error { Error: Request failed with status code 404
+    at createError (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/createError.js:16:15)
+    at settle (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/core/settle.js:17:12)
+    at IncomingMessage.handleStreamEnd (/Users/jianghui/Code/my_code/whisky-app/node_modules/_axios@0.19.2@axios/lib/adapters/http.js:236:11)
+    at IncomingMessage.emit (events.js:203:15)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+  config:
+   { url: 'http://127.0.0.1:9007/api/blog/list',
+     method: 'get',
+     headers:
+      { Accept: 'application/json, text/plain, */*',
+        'User-Agent': 'axios/0.19.2' },
+     transformRequest: [ [Function: transformRequest] ],
+     transformResponse: [ [Function: transformResponse] ],
+     timeout: 15000,
+     adapter: [Function: httpAdapter],
+     xsrfCookieName: 'csrfToken',
+     xsrfHeaderName: 'x-csrf-token',
+     maxContentLength: -1,
+     validateStatus: [Function: validateStatus],
+     data: undefined },
+  request:
+   ClientRequest {
+     _events:
+      [Object: null prototype] {
+        socket: [Array],
+        abort: [Function],
+        aborted: [Function],
+        error: [Function],
+        timeout: [Array],
+        prefinish: [Function: requestOnPrefinish] },
+     _eventsCount: 6,
+     _maxListeners: undefined,
+     output: [],
+     outputEncodings: [],
+     outputCallbacks: [],
+     outputSize: 0,
+     writable: true,
+     _last: true,
+     chunkedEncoding: false,
+     shouldKeepAlive: false,
+     useChunkedEncodingByDefault: false,
+     sendDate: false,
+     _removedConnection: false,
+     _removedContLen: false,
+     _removedTE: false,
+     _contentLength: 0,
+     _hasBody: true,
+     _trailer: '',
+     finished: true,
+     _headerSent: true,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 1839,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 122510,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 1845,
+           [Symbol(triggerId)]: 1842 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 7,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: false,
+        allowHalfOpen: false,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: null,
+        _server: null,
+        parser: null,
+        _httpMessage: [Circular],
+        timeout: 15000,
+        [Symbol(asyncId)]: 1839,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 15000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 122510,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 1845,
+           [Symbol(triggerId)]: 1842 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _header:
+      'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9007\r\nConnection: close\r\n\r\n',
+     _onPendingData: [Function: noopPendingOutput],
+     agent:
+      Agent {
+        _events: [Object],
+        _eventsCount: 1,
+        _maxListeners: undefined,
+        defaultPort: 80,
+        protocol: 'http:',
+        options: [Object],
+        requests: {},
+        sockets: [Object],
+        freeSockets: {},
+        keepAliveMsecs: 1000,
+        keepAlive: false,
+        maxSockets: Infinity,
+        maxFreeSockets: 256 },
+     socketPath: undefined,
+     timeout: undefined,
+     method: 'GET',
+     insecureHTTPParser: undefined,
+     path: '/api/blog/list',
+     _ended: true,
+     res:
+      IncomingMessage {
+        _readableState: [ReadableState],
+        readable: false,
+        _events: [Object],
+        _eventsCount: 3,
+        _maxListeners: undefined,
+        socket: [Socket],
+        connection: [Socket],
+        httpVersionMajor: 1,
+        httpVersionMinor: 1,
+        httpVersion: '1.1',
+        complete: true,
+        headers: [Object],
+        rawHeaders: [Array],
+        trailers: {},
+        rawTrailers: [],
+        aborted: false,
+        upgrade: false,
+        url: '',
+        method: null,
+        statusCode: 404,
+        statusMessage: 'Not Found',
+        client: [Socket],
+        _consuming: false,
+        _dumped: false,
+        req: [Circular],
+        responseUrl: 'http://127.0.0.1:9007/api/blog/list',
+        redirects: [] },
+     aborted: undefined,
+     timeoutCb: [Function: emitRequestTimeout],
+     upgradeOrConnect: false,
+     parser: null,
+     maxHeadersCount: null,
+     _redirectable:
+      Writable {
+        _writableState: [WritableState],
+        writable: true,
+        _events: [Object],
+        _eventsCount: 2,
+        _maxListeners: undefined,
+        _options: [Object],
+        _redirectCount: 0,
+        _redirects: [],
+        _requestBodyLength: 0,
+        _requestBodyBuffers: [],
+        _onNativeResponse: [Function],
+        _currentRequest: [Circular],
+        _currentUrl: 'http://127.0.0.1:9007/api/blog/list' },
+     [Symbol(isCorked)]: false,
+     [Symbol(outHeadersKey)]:
+      [Object: null prototype] { accept: [Array], 'user-agent': [Array], host: [Array] } },
+  response:
+   { status: 404,
+     statusText: 'Not Found',
+     headers:
+      { vary: 'Origin',
+        'content-type': 'text/plain; charset=utf-8',
+        'content-length': '9',
+        date: 'Wed, 13 May 2020 02:43:40 GMT',
+        connection: 'close' },
+     config:
+      { url: 'http://127.0.0.1:9007/api/blog/list',
+        method: 'get',
+        headers: [Object],
+        transformRequest: [Array],
+        transformResponse: [Array],
+        timeout: 15000,
+        adapter: [Function: httpAdapter],
+        xsrfCookieName: 'csrfToken',
+        xsrfHeaderName: 'x-csrf-token',
+        maxContentLength: -1,
+        validateStatus: [Function: validateStatus],
+        data: undefined },
+     request:
+      ClientRequest {
+        _events: [Object],
+        _eventsCount: 6,
+        _maxListeners: undefined,
+        output: [],
+        outputEncodings: [],
+        outputCallbacks: [],
+        outputSize: 0,
+        writable: true,
+        _last: true,
+        chunkedEncoding: false,
+        shouldKeepAlive: false,
+        useChunkedEncodingByDefault: false,
+        sendDate: false,
+        _removedConnection: false,
+        _removedContLen: false,
+        _removedTE: false,
+        _contentLength: 0,
+        _hasBody: true,
+        _trailer: '',
+        finished: true,
+        _headerSent: true,
+        socket: [Socket],
+        connection: [Socket],
+        _header:
+         'GET /api/blog/list HTTP/1.1\r\nAccept: application/json, text/plain, */*\r\nUser-Agent: axios/0.19.2\r\nHost: 127.0.0.1:9007\r\nConnection: close\r\n\r\n',
+        _onPendingData: [Function: noopPendingOutput],
+        agent: [Agent],
+        socketPath: undefined,
+        timeout: undefined,
+        method: 'GET',
+        insecureHTTPParser: undefined,
+        path: '/api/blog/list',
+        _ended: true,
+        res: [IncomingMessage],
+        aborted: undefined,
+        timeoutCb: [Function: emitRequestTimeout],
+        upgradeOrConnect: false,
+        parser: null,
+        maxHeadersCount: null,
+        _redirectable: [Writable],
+        [Symbol(isCorked)]: false,
+        [Symbol(outHeadersKey)]: [Object] },
+     data: 'Not Found' },
+  isAxiosError: true,
+  toJSON: [Function] }
+2020-05-13 11:39:37,000 ERROR 99946 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/view/test.less?:1:7)
+    at Object../app/web/page/blog/view/test.less (evalmachine.<anonymous>:321:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/view/main.tsx?:20:69)
+    at Module../app/web/page/blog/view/main.tsx (evalmachine.<anonymous>:310:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:13:68)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:44:54,418 ERROR 275 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/view/test.less?:1:7)
+    at Object../app/web/page/blog/view/test.less (evalmachine.<anonymous>:321:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/view/main.tsx?:20:69)
+    at Module../app/web/page/blog/view/main.tsx (evalmachine.<anonymous>:310:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:13:68)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:44:54,457 ERROR 275 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/view/test.less?:1:7)
+    at Object../app/web/page/blog/view/test.less (evalmachine.<anonymous>:321:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/view/main.tsx?:20:69)
+    at Module../app/web/page/blog/view/main.tsx (evalmachine.<anonymous>:310:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:13:68)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:44:54,658 ERROR 275 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/view/test.less?:1:7)
+    at Object../app/web/page/blog/view/test.less (evalmachine.<anonymous>:321:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/view/main.tsx?:20:69)
+    at Module../app/web/page/blog/view/main.tsx (evalmachine.<anonymous>:310:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:13:68)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:48:23,373 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/view/test.less?:1:7)
+    at Object../app/web/page/blog/view/test.less (evalmachine.<anonymous>:321:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/view/main.tsx?:20:69)
+    at Module../app/web/page/blog/view/main.tsx (evalmachine.<anonymous>:310:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:13:68)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:49:33,489 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:49:34,330 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:49:34,682 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:49:34,847 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:49:35,004 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:49:35,160 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:49:35,313 ERROR 474 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 11:55:04,273 ERROR 764 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-13 14:04:29,482 ERROR 1363 [demo/node.js] server render bundle error, try client render, the server render error Error: read webpack memory file[/Users/jianghui/Code/my_code/whisky-app/app/view/demo/node.js] content is empty, please check if the file exists
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:18:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-14 12:42:03,437 ERROR 21416 [blog.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/_less-loader@6.1.0@less-loader/dist/cjs.js):
+ValidationError: Invalid options object. Less Loader has been initialized using an options object that does not match the API schema.
+ - options has an unknown property 'modifyVars'. These properties are valid:
+   object { lessOptions?, prependData?, appendData?, sourceMap?, implementation? }
+    at validate (/Users/jianghui/Code/my_code/whisky-app/node_modules/_schema-utils@2.6.6@schema-utils/dist/validate.js:88:11)
+    at Object.lessLoader (/Users/jianghui/Code/my_code/whisky-app/node_modules/_less-loader@6.1.0@less-loader/dist/index.js:22:28)
+    at eval (webpack:///./app/web/page/blog/router/test.less?./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js??ref--9-1!./node_modules/_postcss-loader@3.0.0@postcss-loader/src??ref--9-2!./node_modules/_less-loader@6.1.0@less-loader/dist/cjs.js??ref--9-3:1:7)
+    at Object../node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js?!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js?!./node_modules/_less-loader@6.1.0@less-loader/dist/cjs.js?!./app/web/page/blog/router/test.less (evalmachine.<anonymous>:365:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/test.less?:3:15)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+2020-05-14 12:43:35,063 ERROR 21541 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-14 12:46:24,668 ERROR 21603 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-14 12:46:26,604 ERROR 21603 [blog.js] server render bundle error, try client render, the server render error Error: Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type.
+> .red {
+|   color: red;
+| }
+    at eval (webpack:///./app/web/page/blog/router/test.less?:1:7)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18
+    at evalmachine.<anonymous>:87:10
+    at Engine.app.react.render (/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/app.js:24:35)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020-05-14 12:47:00,155 ERROR 21728 [blog.js] server render bundle error, try client render, the server render error Error: Module build failed (from ./node_modules/_less-loader@6.1.0@less-loader/dist/cjs.js):
+ValidationError: Invalid options object. Less Loader has been initialized using an options object that does not match the API schema.
+ - options has an unknown property 'modifyVars'. These properties are valid:
+   object { lessOptions?, prependData?, appendData?, sourceMap?, implementation? }
+    at validate (/Users/jianghui/Code/my_code/whisky-app/node_modules/_schema-utils@2.6.6@schema-utils/dist/validate.js:88:11)
+    at Object.lessLoader (/Users/jianghui/Code/my_code/whisky-app/node_modules/_less-loader@6.1.0@less-loader/dist/index.js:22:28)
+    at eval (webpack:///./app/web/page/blog/router/test.less?./node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js??ref--9-1!./node_modules/_postcss-loader@3.0.0@postcss-loader/src??ref--9-2!./node_modules/_less-loader@6.1.0@less-loader/dist/cjs.js??ref--9-3:1:7)
+    at Object../node_modules/_css-loader@3.5.3@css-loader/dist/cjs.js?!./node_modules/_postcss-loader@3.0.0@postcss-loader/src/index.js?!./node_modules/_less-loader@6.1.0@less-loader/dist/cjs.js?!./app/web/page/blog/router/test.less (evalmachine.<anonymous>:365:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/test.less?:3:15)
+    at Object../app/web/page/blog/router/test.less (evalmachine.<anonymous>:250:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/home.tsx?:8:68)
+    at Module../app/web/page/blog/router/home.tsx (evalmachine.<anonymous>:204:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/router/index.tsx?:5:63)
+    at Module../app/web/page/blog/router/index.tsx (evalmachine.<anonymous>:216:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at eval (webpack:///./app/web/page/blog/index.tsx?:12:65)
+    at Module../app/web/page/blog/index.tsx (evalmachine.<anonymous>:156:1)
+    at __webpack_require__ (evalmachine.<anonymous>:20:30)
+    at evalmachine.<anonymous>:84:18

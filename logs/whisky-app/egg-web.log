@@ -1,0 +1,603 @@
+2020-05-12 19:39:09,108 INFO 90253 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:39:09,161 INFO 90253 [egg-multipart] stream mode enable
+2020-05-12 19:39:09,357 INFO 90253 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:39:09,361 INFO 90253 [egg-security] use csrf middleware
+2020-05-12 19:39:09,364 INFO 90253 [egg-security] use methodnoallow middleware
+2020-05-12 19:39:09,365 INFO 90253 [egg-security] use noopen middleware
+2020-05-12 19:39:09,366 INFO 90253 [egg-security] use nosniff middleware
+2020-05-12 19:39:09,367 INFO 90253 [egg-security] use xssProtection middleware
+2020-05-12 19:39:09,368 INFO 90253 [egg-security] use xframe middleware
+2020-05-12 19:39:09,369 INFO 90253 [egg-security] use dta middleware
+2020-05-12 19:39:09,369 INFO 90253 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:39:09,429 INFO 90253 [egg:core] dump config after load, 7ms
+2020-05-12 19:39:09,445 INFO 90253 [egg-watcher:application] watcher start success
+2020-05-12 19:39:09,463 INFO 90253 [egg:core] dump config after ready, 11ms
+2020-05-12 19:41:20,566 INFO 90441 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:41:20,591 INFO 90441 [egg-multipart] stream mode enable
+2020-05-12 19:41:20,623 INFO 90441 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:41:20,625 INFO 90441 [egg-security] use csrf middleware
+2020-05-12 19:41:20,626 INFO 90441 [egg-security] use methodnoallow middleware
+2020-05-12 19:41:20,626 INFO 90441 [egg-security] use noopen middleware
+2020-05-12 19:41:20,626 INFO 90441 [egg-security] use nosniff middleware
+2020-05-12 19:41:20,627 INFO 90441 [egg-security] use xssProtection middleware
+2020-05-12 19:41:20,627 INFO 90441 [egg-security] use xframe middleware
+2020-05-12 19:41:20,627 INFO 90441 [egg-security] use dta middleware
+2020-05-12 19:41:20,627 INFO 90441 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:41:22,305 INFO 90441 [egg:core] dump config after load, 6ms
+2020-05-12 19:41:22,315 INFO 90441 [egg-watcher:application] watcher start success
+2020-05-12 19:41:22,323 INFO 90441 [egg:core] dump config after ready, 6ms
+2020-05-12 19:42:06,499 INFO 90544 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:42:06,525 INFO 90544 [egg-multipart] stream mode enable
+2020-05-12 19:42:06,558 INFO 90544 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:42:06,560 INFO 90544 [egg-security] use csrf middleware
+2020-05-12 19:42:06,561 INFO 90544 [egg-security] use methodnoallow middleware
+2020-05-12 19:42:06,561 INFO 90544 [egg-security] use noopen middleware
+2020-05-12 19:42:06,561 INFO 90544 [egg-security] use nosniff middleware
+2020-05-12 19:42:06,562 INFO 90544 [egg-security] use xssProtection middleware
+2020-05-12 19:42:06,562 INFO 90544 [egg-security] use xframe middleware
+2020-05-12 19:42:06,562 INFO 90544 [egg-security] use dta middleware
+2020-05-12 19:42:06,562 INFO 90544 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:42:08,224 INFO 90544 [egg:core] dump config after load, 11ms
+2020-05-12 19:42:08,235 INFO 90544 [egg-watcher:application] watcher start success
+2020-05-12 19:42:08,242 INFO 90544 [egg:core] dump config after ready, 5ms
+2020-05-12 19:42:12,071 INFO 90569 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:42:12,100 INFO 90569 [egg-multipart] stream mode enable
+2020-05-12 19:42:12,139 INFO 90569 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:42:12,141 INFO 90569 [egg-security] use csrf middleware
+2020-05-12 19:42:12,142 INFO 90569 [egg-security] use methodnoallow middleware
+2020-05-12 19:42:12,142 INFO 90569 [egg-security] use noopen middleware
+2020-05-12 19:42:12,143 INFO 90569 [egg-security] use nosniff middleware
+2020-05-12 19:42:12,143 INFO 90569 [egg-security] use xssProtection middleware
+2020-05-12 19:42:12,143 INFO 90569 [egg-security] use xframe middleware
+2020-05-12 19:42:12,144 INFO 90569 [egg-security] use dta middleware
+2020-05-12 19:42:12,144 INFO 90569 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:42:12,155 INFO 90569 [egg:core] dump config after load, 6ms
+2020-05-12 19:42:12,165 INFO 90569 [egg-watcher:application] watcher start success
+2020-05-12 19:42:12,178 INFO 90569 [egg:core] dump config after ready, 11ms
+2020-05-12 19:44:16,384 INFO 90652 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:44:16,418 INFO 90652 [egg-multipart] stream mode enable
+2020-05-12 19:44:16,509 INFO 90652 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:44:16,512 INFO 90652 [egg-security] use csrf middleware
+2020-05-12 19:44:16,513 INFO 90652 [egg-security] use methodnoallow middleware
+2020-05-12 19:44:16,514 INFO 90652 [egg-security] use noopen middleware
+2020-05-12 19:44:16,516 INFO 90652 [egg-security] use nosniff middleware
+2020-05-12 19:44:16,517 INFO 90652 [egg-security] use xssProtection middleware
+2020-05-12 19:44:16,517 INFO 90652 [egg-security] use xframe middleware
+2020-05-12 19:44:16,518 INFO 90652 [egg-security] use dta middleware
+2020-05-12 19:44:16,518 INFO 90652 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:44:18,229 INFO 90652 [egg:core] dump config after load, 5ms
+2020-05-12 19:44:18,244 INFO 90652 [egg-watcher:application] watcher start success
+2020-05-12 19:44:18,251 INFO 90652 [egg:core] dump config after ready, 6ms
+2020-05-12 19:44:22,909 INFO 90687 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:44:22,944 INFO 90687 [egg-multipart] stream mode enable
+2020-05-12 19:44:23,001 INFO 90687 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:44:23,004 INFO 90687 [egg-security] use csrf middleware
+2020-05-12 19:44:23,005 INFO 90687 [egg-security] use methodnoallow middleware
+2020-05-12 19:44:23,006 INFO 90687 [egg-security] use noopen middleware
+2020-05-12 19:44:23,007 INFO 90687 [egg-security] use nosniff middleware
+2020-05-12 19:44:23,007 INFO 90687 [egg-security] use xssProtection middleware
+2020-05-12 19:44:23,008 INFO 90687 [egg-security] use xframe middleware
+2020-05-12 19:44:23,009 INFO 90687 [egg-security] use dta middleware
+2020-05-12 19:44:23,009 INFO 90687 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:44:23,021 INFO 90687 [egg:core] dump config after load, 6ms
+2020-05-12 19:44:23,032 INFO 90687 [egg-watcher:application] watcher start success
+2020-05-12 19:44:23,042 INFO 90687 [egg:core] dump config after ready, 8ms
+2020-05-12 19:45:30,297 INFO 90781 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:45:30,327 INFO 90781 [egg-multipart] stream mode enable
+2020-05-12 19:45:30,330 INFO 90781 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 19:45:30,428 INFO 90781 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:45:30,430 INFO 90781 [egg-security] use csrf middleware
+2020-05-12 19:45:30,431 INFO 90781 [egg-security] use methodnoallow middleware
+2020-05-12 19:45:30,432 INFO 90781 [egg-security] use noopen middleware
+2020-05-12 19:45:30,433 INFO 90781 [egg-security] use nosniff middleware
+2020-05-12 19:45:30,434 INFO 90781 [egg-security] use xssProtection middleware
+2020-05-12 19:45:30,435 INFO 90781 [egg-security] use xframe middleware
+2020-05-12 19:45:30,436 INFO 90781 [egg-security] use dta middleware
+2020-05-12 19:45:30,436 INFO 90781 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:45:30,449 INFO 90781 [egg:core] dump config after load, 7ms
+2020-05-12 19:45:30,462 INFO 90781 [egg-watcher:application] watcher start success
+2020-05-12 19:45:30,486 INFO 90781 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 19:45:30 GMT+0800 (GMT+08:00)
+2020-05-12 19:45:30,494 INFO 90781 [egg:core] dump config after ready, 6ms
+2020-05-12 19:45:58,816 INFO 90833 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:45:58,850 INFO 90833 [egg-multipart] stream mode enable
+2020-05-12 19:45:58,852 INFO 90833 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 19:45:58,941 INFO 90833 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:45:58,944 INFO 90833 [egg-security] use csrf middleware
+2020-05-12 19:45:58,945 INFO 90833 [egg-security] use methodnoallow middleware
+2020-05-12 19:45:58,946 INFO 90833 [egg-security] use noopen middleware
+2020-05-12 19:45:58,946 INFO 90833 [egg-security] use nosniff middleware
+2020-05-12 19:45:58,947 INFO 90833 [egg-security] use xssProtection middleware
+2020-05-12 19:45:58,947 INFO 90833 [egg-security] use xframe middleware
+2020-05-12 19:45:58,948 INFO 90833 [egg-security] use dta middleware
+2020-05-12 19:45:58,948 INFO 90833 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:46:00,940 INFO 90833 [egg:core] dump config after load, 8ms
+2020-05-12 19:46:00,962 INFO 90833 [egg-watcher:application] watcher start success
+2020-05-12 19:46:01,079 INFO 90833 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 19:46:01 GMT+0800 (GMT+08:00)
+2020-05-12 19:46:01,088 INFO 90833 [egg:core] dump config after ready, 7ms
+2020-05-12 19:46:05,680 INFO 90874 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:46:05,723 INFO 90874 [egg-multipart] stream mode enable
+2020-05-12 19:46:05,726 INFO 90874 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 19:46:05,816 INFO 90874 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:46:05,818 INFO 90874 [egg-security] use csrf middleware
+2020-05-12 19:46:05,819 INFO 90874 [egg-security] use methodnoallow middleware
+2020-05-12 19:46:05,820 INFO 90874 [egg-security] use noopen middleware
+2020-05-12 19:46:05,821 INFO 90874 [egg-security] use nosniff middleware
+2020-05-12 19:46:05,822 INFO 90874 [egg-security] use xssProtection middleware
+2020-05-12 19:46:05,822 INFO 90874 [egg-security] use xframe middleware
+2020-05-12 19:46:05,823 INFO 90874 [egg-security] use dta middleware
+2020-05-12 19:46:05,823 INFO 90874 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:46:05,835 INFO 90874 [egg:core] dump config after load, 6ms
+2020-05-12 19:46:05,855 INFO 90874 [egg-watcher:application] watcher start success
+2020-05-12 19:46:05,859 INFO 90874 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 19:46:05 GMT+0800 (GMT+08:00)
+2020-05-12 19:46:05,868 INFO 90874 [egg:core] dump config after ready, 8ms
+2020-05-12 19:46:13,049 INFO 90905 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:46:13,080 INFO 90905 [egg-multipart] stream mode enable
+2020-05-12 19:46:13,082 INFO 90905 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 19:46:13,171 INFO 90905 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:46:13,174 INFO 90905 [egg-security] use csrf middleware
+2020-05-12 19:46:13,175 INFO 90905 [egg-security] use methodnoallow middleware
+2020-05-12 19:46:13,176 INFO 90905 [egg-security] use noopen middleware
+2020-05-12 19:46:13,177 INFO 90905 [egg-security] use nosniff middleware
+2020-05-12 19:46:13,177 INFO 90905 [egg-security] use xssProtection middleware
+2020-05-12 19:46:13,178 INFO 90905 [egg-security] use xframe middleware
+2020-05-12 19:46:13,179 INFO 90905 [egg-security] use dta middleware
+2020-05-12 19:46:13,179 INFO 90905 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:46:13,194 INFO 90905 [egg:core] dump config after load, 9ms
+2020-05-12 19:46:13,218 INFO 90905 [egg-watcher:application] watcher start success
+2020-05-12 19:46:13,223 INFO 90905 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 19:46:13 GMT+0800 (GMT+08:00)
+2020-05-12 19:46:13,237 INFO 90905 [egg:core] dump config after ready, 10ms
+2020-05-12 19:48:03,318 INFO 91040 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 19:48:03,365 INFO 91040 [egg-multipart] stream mode enable
+2020-05-12 19:48:03,370 INFO 91040 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 19:48:03,495 INFO 91040 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 19:48:03,498 INFO 91040 [egg-security] use csrf middleware
+2020-05-12 19:48:03,499 INFO 91040 [egg-security] use methodnoallow middleware
+2020-05-12 19:48:03,501 INFO 91040 [egg-security] use noopen middleware
+2020-05-12 19:48:03,502 INFO 91040 [egg-security] use nosniff middleware
+2020-05-12 19:48:03,503 INFO 91040 [egg-security] use xssProtection middleware
+2020-05-12 19:48:03,504 INFO 91040 [egg-security] use xframe middleware
+2020-05-12 19:48:03,505 INFO 91040 [egg-security] use dta middleware
+2020-05-12 19:48:03,505 INFO 91040 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 19:48:03,520 INFO 91040 [egg:core] dump config after load, 7ms
+2020-05-12 19:48:03,540 INFO 91040 [egg-watcher:application] watcher start success
+2020-05-12 19:48:03,555 INFO 91040 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 19:48:03 GMT+0800 (GMT+08:00)
+2020-05-12 19:48:03,566 INFO 91040 [egg:core] dump config after ready, 7ms
+2020-05-12 20:43:30,075 INFO 93212 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 20:43:30,101 INFO 93212 [egg-multipart] stream mode enable
+2020-05-12 20:43:30,103 INFO 93212 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 20:43:30,263 INFO 93212 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 20:43:30,265 INFO 93212 [egg-security] use csrf middleware
+2020-05-12 20:43:30,266 INFO 93212 [egg-security] use methodnoallow middleware
+2020-05-12 20:43:30,267 INFO 93212 [egg-security] use noopen middleware
+2020-05-12 20:43:30,268 INFO 93212 [egg-security] use nosniff middleware
+2020-05-12 20:43:30,268 INFO 93212 [egg-security] use xssProtection middleware
+2020-05-12 20:43:30,269 INFO 93212 [egg-security] use xframe middleware
+2020-05-12 20:43:30,270 INFO 93212 [egg-security] use dta middleware
+2020-05-12 20:43:30,270 INFO 93212 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 20:43:30,320 INFO 93212 [egg:core] dump config after load, 7ms
+2020-05-12 20:43:30,337 INFO 93212 [egg-watcher:application] watcher start success
+2020-05-12 20:43:30,401 INFO 93212 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 20:43:30 GMT+0800 (GMT+08:00)
+2020-05-12 20:43:30,410 INFO 93212 [egg:core] dump config after ready, 7ms
+2020-05-12 20:45:36,387 INFO 93331 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 20:45:36,421 INFO 93331 [egg-multipart] stream mode enable
+2020-05-12 20:45:36,425 INFO 93331 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 20:45:36,522 INFO 93331 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 20:45:36,526 INFO 93331 [egg-security] use csrf middleware
+2020-05-12 20:45:36,528 INFO 93331 [egg-security] use methodnoallow middleware
+2020-05-12 20:45:36,529 INFO 93331 [egg-security] use noopen middleware
+2020-05-12 20:45:36,530 INFO 93331 [egg-security] use nosniff middleware
+2020-05-12 20:45:36,530 INFO 93331 [egg-security] use xssProtection middleware
+2020-05-12 20:45:36,531 INFO 93331 [egg-security] use xframe middleware
+2020-05-12 20:45:36,532 INFO 93331 [egg-security] use dta middleware
+2020-05-12 20:45:36,532 INFO 93331 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 20:45:36,545 INFO 93331 [egg:core] dump config after load, 7ms
+2020-05-12 20:45:36,566 INFO 93331 [egg-watcher:application] watcher start success
+2020-05-12 20:45:36,570 INFO 93331 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 20:45:36 GMT+0800 (GMT+08:00)
+2020-05-12 20:45:36,590 INFO 93331 [egg:core] dump config after ready, 17ms
+2020-05-12 20:56:05,378 INFO 94168 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 20:56:05,402 INFO 94168 [egg-multipart] stream mode enable
+2020-05-12 20:56:05,405 INFO 94168 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 20:56:05,521 INFO 94168 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 20:56:05,523 INFO 94168 [egg-security] use csrf middleware
+2020-05-12 20:56:05,524 INFO 94168 [egg-security] use methodnoallow middleware
+2020-05-12 20:56:05,525 INFO 94168 [egg-security] use noopen middleware
+2020-05-12 20:56:05,527 INFO 94168 [egg-security] use nosniff middleware
+2020-05-12 20:56:05,528 INFO 94168 [egg-security] use xssProtection middleware
+2020-05-12 20:56:05,528 INFO 94168 [egg-security] use xframe middleware
+2020-05-12 20:56:05,529 INFO 94168 [egg-security] use dta middleware
+2020-05-12 20:56:05,529 INFO 94168 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 20:56:05,546 INFO 94168 [egg:core] dump config after load, 9ms
+2020-05-12 20:56:05,564 INFO 94168 [egg-watcher:application] watcher start success
+2020-05-12 20:56:05,584 INFO 94168 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 20:56:05 GMT+0800 (GMT+08:00)
+2020-05-12 20:56:05,593 INFO 94168 [egg:core] dump config after ready, 7ms
+2020-05-12 21:07:30,286 INFO 94865 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 21:07:30,341 INFO 94865 [egg-multipart] stream mode enable
+2020-05-12 21:07:30,345 INFO 94865 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 21:07:30,535 INFO 94865 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 21:07:30,539 INFO 94865 [egg-security] use csrf middleware
+2020-05-12 21:07:30,541 INFO 94865 [egg-security] use methodnoallow middleware
+2020-05-12 21:07:30,542 INFO 94865 [egg-security] use noopen middleware
+2020-05-12 21:07:30,543 INFO 94865 [egg-security] use nosniff middleware
+2020-05-12 21:07:30,544 INFO 94865 [egg-security] use xssProtection middleware
+2020-05-12 21:07:30,546 INFO 94865 [egg-security] use xframe middleware
+2020-05-12 21:07:30,546 INFO 94865 [egg-security] use dta middleware
+2020-05-12 21:07:30,546 INFO 94865 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 21:07:30,579 INFO 94865 [egg:core] dump config after load, 17ms
+2020-05-12 21:07:30,623 INFO 94865 [egg-watcher:application] watcher start success
+2020-05-12 21:07:30,637 INFO 94865 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 21:07:30 GMT+0800 (GMT+08:00)
+2020-05-12 21:07:30,661 INFO 94865 [egg:core] dump config after ready, 20ms
+2020-05-12 21:09:26,109 INFO 95024 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 21:09:26,142 INFO 95024 [egg-multipart] stream mode enable
+2020-05-12 21:09:26,145 INFO 95024 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 21:09:26,254 INFO 95024 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 21:09:26,257 INFO 95024 [egg-security] use csrf middleware
+2020-05-12 21:09:26,258 INFO 95024 [egg-security] use methodnoallow middleware
+2020-05-12 21:09:26,258 INFO 95024 [egg-security] use noopen middleware
+2020-05-12 21:09:26,259 INFO 95024 [egg-security] use nosniff middleware
+2020-05-12 21:09:26,260 INFO 95024 [egg-security] use xssProtection middleware
+2020-05-12 21:09:26,261 INFO 95024 [egg-security] use xframe middleware
+2020-05-12 21:09:26,261 INFO 95024 [egg-security] use dta middleware
+2020-05-12 21:09:26,261 INFO 95024 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 21:09:26,278 INFO 95024 [egg:core] dump config after load, 7ms
+2020-05-12 21:09:26,296 INFO 95024 [egg-watcher:application] watcher start success
+2020-05-12 21:09:26,301 INFO 95024 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 21:09:26 GMT+0800 (GMT+08:00)
+2020-05-12 21:09:26,312 INFO 95024 [egg:core] dump config after ready, 9ms
+2020-05-12 21:12:06,945 INFO 95188 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 21:12:06,969 INFO 95188 [egg-multipart] stream mode enable
+2020-05-12 21:12:06,971 INFO 95188 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 21:12:07,095 INFO 95188 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 21:12:07,098 INFO 95188 [egg-security] use csrf middleware
+2020-05-12 21:12:07,099 INFO 95188 [egg-security] use methodnoallow middleware
+2020-05-12 21:12:07,100 INFO 95188 [egg-security] use noopen middleware
+2020-05-12 21:12:07,101 INFO 95188 [egg-security] use nosniff middleware
+2020-05-12 21:12:07,102 INFO 95188 [egg-security] use xssProtection middleware
+2020-05-12 21:12:07,103 INFO 95188 [egg-security] use xframe middleware
+2020-05-12 21:12:07,104 INFO 95188 [egg-security] use dta middleware
+2020-05-12 21:12:07,104 INFO 95188 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 21:12:07,120 INFO 95188 [egg:core] dump config after load, 6ms
+2020-05-12 21:12:07,135 INFO 95188 [egg-watcher:application] watcher start success
+2020-05-12 21:12:07,140 INFO 95188 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 21:12:07 GMT+0800 (GMT+08:00)
+2020-05-12 21:12:07,148 INFO 95188 [egg:core] dump config after ready, 7ms
+2020-05-12 21:15:49,459 INFO 95336 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 21:15:49,484 INFO 95336 [egg-multipart] stream mode enable
+2020-05-12 21:15:49,487 INFO 95336 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 21:15:49,613 INFO 95336 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 21:15:49,616 INFO 95336 [egg-security] use csrf middleware
+2020-05-12 21:15:49,617 INFO 95336 [egg-security] use methodnoallow middleware
+2020-05-12 21:15:49,618 INFO 95336 [egg-security] use noopen middleware
+2020-05-12 21:15:49,619 INFO 95336 [egg-security] use nosniff middleware
+2020-05-12 21:15:49,620 INFO 95336 [egg-security] use xssProtection middleware
+2020-05-12 21:15:49,622 INFO 95336 [egg-security] use xframe middleware
+2020-05-12 21:15:49,622 INFO 95336 [egg-security] use dta middleware
+2020-05-12 21:15:49,622 INFO 95336 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 21:15:49,638 INFO 95336 [egg:core] dump config after load, 7ms
+2020-05-12 21:15:49,655 INFO 95336 [egg-watcher:application] watcher start success
+2020-05-12 21:15:49,672 INFO 95336 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 21:15:49 GMT+0800 (GMT+08:00)
+2020-05-12 21:15:49,681 INFO 95336 [egg:core] dump config after ready, 7ms
+2020-05-12 21:18:32,194 INFO 95449 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-12 21:18:32,220 INFO 95449 [egg-multipart] stream mode enable
+2020-05-12 21:18:32,223 INFO 95449 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-12 21:18:32,323 INFO 95449 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-12 21:18:32,325 INFO 95449 [egg-security] use csrf middleware
+2020-05-12 21:18:32,326 INFO 95449 [egg-security] use methodnoallow middleware
+2020-05-12 21:18:32,327 INFO 95449 [egg-security] use noopen middleware
+2020-05-12 21:18:32,328 INFO 95449 [egg-security] use nosniff middleware
+2020-05-12 21:18:32,328 INFO 95449 [egg-security] use xssProtection middleware
+2020-05-12 21:18:32,329 INFO 95449 [egg-security] use xframe middleware
+2020-05-12 21:18:32,330 INFO 95449 [egg-security] use dta middleware
+2020-05-12 21:18:32,330 INFO 95449 [egg-security] compose 7 middlewares into one security middleware
+2020-05-12 21:18:32,343 INFO 95449 [egg:core] dump config after load, 6ms
+2020-05-12 21:18:32,358 INFO 95449 [egg-watcher:application] watcher start success
+2020-05-12 21:18:32,363 INFO 95449 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 12 2020 21:18:32 GMT+0800 (GMT+08:00)
+2020-05-12 21:18:32,372 INFO 95449 [egg:core] dump config after ready, 7ms
+2020-05-13 08:45:11,006 WARN 95449 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-13 10:13:19,768 WARN 95449 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-13 10:41:42,908 INFO 97623 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 10:41:42,955 INFO 97623 [egg-multipart] stream mode enable
+2020-05-13 10:41:42,958 INFO 97623 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 10:41:43,106 INFO 97623 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 10:41:43,110 INFO 97623 [egg-security] use csrf middleware
+2020-05-13 10:41:43,111 INFO 97623 [egg-security] use methodnoallow middleware
+2020-05-13 10:41:43,112 INFO 97623 [egg-security] use noopen middleware
+2020-05-13 10:41:43,113 INFO 97623 [egg-security] use nosniff middleware
+2020-05-13 10:41:43,114 INFO 97623 [egg-security] use xssProtection middleware
+2020-05-13 10:41:43,114 INFO 97623 [egg-security] use xframe middleware
+2020-05-13 10:41:43,115 INFO 97623 [egg-security] use dta middleware
+2020-05-13 10:41:43,115 INFO 97623 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 10:41:43,136 INFO 97623 [egg:core] dump config after load, 12ms
+2020-05-13 10:41:43,155 INFO 97623 [egg-watcher:application] watcher start success
+2020-05-13 10:41:43,214 INFO 97623 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 10:41:43 GMT+0800 (GMT+08:00)
+2020-05-13 10:41:43,226 INFO 97623 [egg:core] dump config after ready, 10ms
+2020-05-13 10:51:41,421 INFO 97907 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 10:51:41,448 INFO 97907 [egg-multipart] stream mode enable
+2020-05-13 10:51:41,450 INFO 97907 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 10:51:41,566 INFO 97907 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 10:51:41,569 INFO 97907 [egg-security] use csrf middleware
+2020-05-13 10:51:41,570 INFO 97907 [egg-security] use methodnoallow middleware
+2020-05-13 10:51:41,571 INFO 97907 [egg-security] use noopen middleware
+2020-05-13 10:51:41,573 INFO 97907 [egg-security] use nosniff middleware
+2020-05-13 10:51:41,573 INFO 97907 [egg-security] use xssProtection middleware
+2020-05-13 10:51:41,575 INFO 97907 [egg-security] use xframe middleware
+2020-05-13 10:51:41,576 INFO 97907 [egg-security] use dta middleware
+2020-05-13 10:51:41,576 INFO 97907 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 10:51:41,590 INFO 97907 [egg:core] dump config after load, 7ms
+2020-05-13 10:51:41,606 INFO 97907 [egg-watcher:application] watcher start success
+2020-05-13 10:51:41,611 INFO 97907 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 10:51:41 GMT+0800 (GMT+08:00)
+2020-05-13 10:51:41,619 INFO 97907 [egg:core] dump config after ready, 6ms
+2020-05-13 10:52:40,578 INFO 97996 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 10:52:40,607 INFO 97996 [egg-multipart] stream mode enable
+2020-05-13 10:52:40,609 INFO 97996 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 10:52:40,726 INFO 97996 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 10:52:40,730 INFO 97996 [egg-security] use csrf middleware
+2020-05-13 10:52:40,732 INFO 97996 [egg-security] use methodnoallow middleware
+2020-05-13 10:52:40,733 INFO 97996 [egg-security] use noopen middleware
+2020-05-13 10:52:40,734 INFO 97996 [egg-security] use nosniff middleware
+2020-05-13 10:52:40,735 INFO 97996 [egg-security] use xssProtection middleware
+2020-05-13 10:52:40,736 INFO 97996 [egg-security] use xframe middleware
+2020-05-13 10:52:40,738 INFO 97996 [egg-security] use dta middleware
+2020-05-13 10:52:40,738 INFO 97996 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 10:52:40,762 INFO 97996 [egg:core] dump config after load, 11ms
+2020-05-13 10:52:40,778 INFO 97996 [egg-watcher:application] watcher start success
+2020-05-13 10:52:40,784 INFO 97996 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 10:52:40 GMT+0800 (GMT+08:00)
+2020-05-13 10:52:40,792 INFO 97996 [egg:core] dump config after ready, 6ms
+2020-05-13 11:31:47,737 INFO 99640 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:31:47,765 INFO 99640 [egg-multipart] stream mode enable
+2020-05-13 11:31:47,767 INFO 99640 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:31:47,862 INFO 99640 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:31:47,865 INFO 99640 [egg-security] use csrf middleware
+2020-05-13 11:31:47,866 INFO 99640 [egg-security] use methodnoallow middleware
+2020-05-13 11:31:47,866 INFO 99640 [egg-security] use noopen middleware
+2020-05-13 11:31:47,867 INFO 99640 [egg-security] use nosniff middleware
+2020-05-13 11:31:47,868 INFO 99640 [egg-security] use xssProtection middleware
+2020-05-13 11:31:47,868 INFO 99640 [egg-security] use xframe middleware
+2020-05-13 11:31:47,869 INFO 99640 [egg-security] use dta middleware
+2020-05-13 11:31:47,869 INFO 99640 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:31:47,883 INFO 99640 [egg:core] dump config after load, 7ms
+2020-05-13 11:31:47,899 INFO 99640 [egg-watcher:application] watcher start success
+2020-05-13 11:31:47,956 INFO 99640 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:31:47 GMT+0800 (GMT+08:00)
+2020-05-13 11:31:47,969 INFO 99640 [egg:core] dump config after ready, 11ms
+2020-05-13 11:39:01,647 INFO 99840 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:39:01,685 INFO 99840 [egg-multipart] stream mode enable
+2020-05-13 11:39:01,686 INFO 99840 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:39:01,815 INFO 99840 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:39:01,818 INFO 99840 [egg-security] use csrf middleware
+2020-05-13 11:39:01,819 INFO 99840 [egg-security] use methodnoallow middleware
+2020-05-13 11:39:01,820 INFO 99840 [egg-security] use noopen middleware
+2020-05-13 11:39:01,821 INFO 99840 [egg-security] use nosniff middleware
+2020-05-13 11:39:01,821 INFO 99840 [egg-security] use xssProtection middleware
+2020-05-13 11:39:01,822 INFO 99840 [egg-security] use xframe middleware
+2020-05-13 11:39:01,823 INFO 99840 [egg-security] use dta middleware
+2020-05-13 11:39:01,823 INFO 99840 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:39:01,840 INFO 99840 [egg:core] dump config after load, 9ms
+2020-05-13 11:39:01,864 INFO 99840 [egg-watcher:application] watcher start success
+2020-05-13 11:39:01,892 INFO 99840 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:39:01 GMT+0800 (GMT+08:00)
+2020-05-13 11:39:01,906 INFO 99840 [egg:core] dump config after ready, 11ms
+2020-05-13 11:39:29,145 INFO 99946 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:39:29,171 INFO 99946 [egg-multipart] stream mode enable
+2020-05-13 11:39:29,174 INFO 99946 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:39:29,283 INFO 99946 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:39:29,286 INFO 99946 [egg-security] use csrf middleware
+2020-05-13 11:39:29,287 INFO 99946 [egg-security] use methodnoallow middleware
+2020-05-13 11:39:29,288 INFO 99946 [egg-security] use noopen middleware
+2020-05-13 11:39:29,288 INFO 99946 [egg-security] use nosniff middleware
+2020-05-13 11:39:29,289 INFO 99946 [egg-security] use xssProtection middleware
+2020-05-13 11:39:29,290 INFO 99946 [egg-security] use xframe middleware
+2020-05-13 11:39:29,290 INFO 99946 [egg-security] use dta middleware
+2020-05-13 11:39:29,291 INFO 99946 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:39:29,307 INFO 99946 [egg:core] dump config after load, 6ms
+2020-05-13 11:39:29,323 INFO 99946 [egg-watcher:application] watcher start success
+2020-05-13 11:39:29,327 INFO 99946 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:39:29 GMT+0800 (GMT+08:00)
+2020-05-13 11:39:29,336 INFO 99946 [egg:core] dump config after ready, 8ms
+2020-05-13 11:42:05,639 INFO 113 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:42:05,669 INFO 113 [egg-multipart] stream mode enable
+2020-05-13 11:42:05,672 INFO 113 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:42:05,778 INFO 113 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:42:05,780 INFO 113 [egg-security] use csrf middleware
+2020-05-13 11:42:05,782 INFO 113 [egg-security] use methodnoallow middleware
+2020-05-13 11:42:05,782 INFO 113 [egg-security] use noopen middleware
+2020-05-13 11:42:05,784 INFO 113 [egg-security] use nosniff middleware
+2020-05-13 11:42:05,785 INFO 113 [egg-security] use xssProtection middleware
+2020-05-13 11:42:05,785 INFO 113 [egg-security] use xframe middleware
+2020-05-13 11:42:05,786 INFO 113 [egg-security] use dta middleware
+2020-05-13 11:42:05,786 INFO 113 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:42:05,800 INFO 113 [egg:core] dump config after load, 7ms
+2020-05-13 11:42:05,819 INFO 113 [egg-watcher:application] watcher start success
+2020-05-13 11:42:05,828 INFO 113 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:42:05 GMT+0800 (GMT+08:00)
+2020-05-13 11:42:05,842 INFO 113 [egg:core] dump config after ready, 12ms
+2020-05-13 11:42:21,589 INFO 149 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:42:21,626 INFO 149 [egg-multipart] stream mode enable
+2020-05-13 11:42:21,628 INFO 149 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:42:21,753 INFO 149 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:42:21,756 INFO 149 [egg-security] use csrf middleware
+2020-05-13 11:42:21,757 INFO 149 [egg-security] use methodnoallow middleware
+2020-05-13 11:42:21,758 INFO 149 [egg-security] use noopen middleware
+2020-05-13 11:42:21,760 INFO 149 [egg-security] use nosniff middleware
+2020-05-13 11:42:21,761 INFO 149 [egg-security] use xssProtection middleware
+2020-05-13 11:42:21,762 INFO 149 [egg-security] use xframe middleware
+2020-05-13 11:42:21,763 INFO 149 [egg-security] use dta middleware
+2020-05-13 11:42:21,763 INFO 149 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:42:21,782 INFO 149 [egg:core] dump config after load, 8ms
+2020-05-13 11:42:21,799 INFO 149 [egg-watcher:application] watcher start success
+2020-05-13 11:42:21,803 INFO 149 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:42:21 GMT+0800 (GMT+08:00)
+2020-05-13 11:42:21,812 INFO 149 [egg:core] dump config after ready, 7ms
+2020-05-13 11:44:44,620 INFO 275 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:44:44,646 INFO 275 [egg-multipart] stream mode enable
+2020-05-13 11:44:44,649 INFO 275 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:44:44,756 INFO 275 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:44:44,759 INFO 275 [egg-security] use csrf middleware
+2020-05-13 11:44:44,760 INFO 275 [egg-security] use methodnoallow middleware
+2020-05-13 11:44:44,760 INFO 275 [egg-security] use noopen middleware
+2020-05-13 11:44:44,761 INFO 275 [egg-security] use nosniff middleware
+2020-05-13 11:44:44,762 INFO 275 [egg-security] use xssProtection middleware
+2020-05-13 11:44:44,763 INFO 275 [egg-security] use xframe middleware
+2020-05-13 11:44:44,764 INFO 275 [egg-security] use dta middleware
+2020-05-13 11:44:44,764 INFO 275 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:44:44,779 INFO 275 [egg:core] dump config after load, 7ms
+2020-05-13 11:44:44,796 INFO 275 [egg-watcher:application] watcher start success
+2020-05-13 11:44:44,798 INFO 275 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:44:44 GMT+0800 (GMT+08:00)
+2020-05-13 11:44:44,810 INFO 275 [egg:core] dump config after ready, 10ms
+2020-05-13 11:48:16,859 INFO 474 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:48:16,887 INFO 474 [egg-multipart] stream mode enable
+2020-05-13 11:48:16,889 INFO 474 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:48:16,988 INFO 474 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:48:16,990 INFO 474 [egg-security] use csrf middleware
+2020-05-13 11:48:16,991 INFO 474 [egg-security] use methodnoallow middleware
+2020-05-13 11:48:16,992 INFO 474 [egg-security] use noopen middleware
+2020-05-13 11:48:16,993 INFO 474 [egg-security] use nosniff middleware
+2020-05-13 11:48:16,994 INFO 474 [egg-security] use xssProtection middleware
+2020-05-13 11:48:16,995 INFO 474 [egg-security] use xframe middleware
+2020-05-13 11:48:16,995 INFO 474 [egg-security] use dta middleware
+2020-05-13 11:48:16,995 INFO 474 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:48:17,009 INFO 474 [egg:core] dump config after load, 7ms
+2020-05-13 11:48:17,025 INFO 474 [egg-watcher:application] watcher start success
+2020-05-13 11:48:17,033 INFO 474 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:48:17 GMT+0800 (GMT+08:00)
+2020-05-13 11:48:17,044 INFO 474 [egg:core] dump config after ready, 9ms
+2020-05-13 11:51:44,629 INFO 602 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:51:44,667 INFO 602 [egg-multipart] stream mode enable
+2020-05-13 11:51:44,669 INFO 602 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:51:44,799 INFO 602 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:51:44,803 INFO 602 [egg-security] use csrf middleware
+2020-05-13 11:51:44,805 INFO 602 [egg-security] use methodnoallow middleware
+2020-05-13 11:51:44,806 INFO 602 [egg-security] use noopen middleware
+2020-05-13 11:51:44,808 INFO 602 [egg-security] use nosniff middleware
+2020-05-13 11:51:44,809 INFO 602 [egg-security] use xssProtection middleware
+2020-05-13 11:51:44,810 INFO 602 [egg-security] use xframe middleware
+2020-05-13 11:51:44,811 INFO 602 [egg-security] use dta middleware
+2020-05-13 11:51:44,811 INFO 602 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:51:44,833 INFO 602 [egg:core] dump config after load, 9ms
+2020-05-13 11:51:44,850 INFO 602 [egg-watcher:application] watcher start success
+2020-05-13 11:51:44,854 INFO 602 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:51:44 GMT+0800 (GMT+08:00)
+2020-05-13 11:51:44,864 INFO 602 [egg:core] dump config after ready, 8ms
+2020-05-13 11:54:58,959 INFO 764 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 11:54:58,984 INFO 764 [egg-multipart] stream mode enable
+2020-05-13 11:54:58,987 INFO 764 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 11:54:59,095 INFO 764 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 11:54:59,097 INFO 764 [egg-security] use csrf middleware
+2020-05-13 11:54:59,098 INFO 764 [egg-security] use methodnoallow middleware
+2020-05-13 11:54:59,098 INFO 764 [egg-security] use noopen middleware
+2020-05-13 11:54:59,099 INFO 764 [egg-security] use nosniff middleware
+2020-05-13 11:54:59,099 INFO 764 [egg-security] use xssProtection middleware
+2020-05-13 11:54:59,100 INFO 764 [egg-security] use xframe middleware
+2020-05-13 11:54:59,101 INFO 764 [egg-security] use dta middleware
+2020-05-13 11:54:59,101 INFO 764 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 11:54:59,114 INFO 764 [egg:core] dump config after load, 6ms
+2020-05-13 11:54:59,129 INFO 764 [egg-watcher:application] watcher start success
+2020-05-13 11:54:59,133 INFO 764 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 11:54:59 GMT+0800 (GMT+08:00)
+2020-05-13 11:54:59,141 INFO 764 [egg:core] dump config after ready, 7ms
+2020-05-13 12:37:00,134 WARN 764 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-13 12:46:38,760 WARN 764 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-13 12:54:30,153 WARN 764 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-13 13:26:50,147 WARN 764 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-13 13:55:23,575 WARN 764 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-13 14:03:08,038 INFO 1363 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-13 14:03:08,069 INFO 1363 [egg-multipart] stream mode enable
+2020-05-13 14:03:08,071 INFO 1363 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-13 14:03:08,163 INFO 1363 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-13 14:03:08,165 INFO 1363 [egg-security] use csrf middleware
+2020-05-13 14:03:08,165 INFO 1363 [egg-security] use methodnoallow middleware
+2020-05-13 14:03:08,165 INFO 1363 [egg-security] use noopen middleware
+2020-05-13 14:03:08,166 INFO 1363 [egg-security] use nosniff middleware
+2020-05-13 14:03:08,166 INFO 1363 [egg-security] use xssProtection middleware
+2020-05-13 14:03:08,166 INFO 1363 [egg-security] use xframe middleware
+2020-05-13 14:03:08,167 INFO 1363 [egg-security] use dta middleware
+2020-05-13 14:03:08,167 INFO 1363 [egg-security] compose 7 middlewares into one security middleware
+2020-05-13 14:03:08,184 INFO 1363 [egg:core] dump config after load, 9ms
+2020-05-13 14:03:08,200 INFO 1363 [egg-watcher:application] watcher start success
+2020-05-13 14:03:08,285 INFO 1363 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 13 2020 14:03:08 GMT+0800 (GMT+08:00)
+2020-05-13 14:03:08,294 INFO 1363 [egg:core] dump config after ready, 8ms
+2020-05-14 12:40:45,498 INFO 21365 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-14 12:40:45,523 INFO 21365 [egg-multipart] stream mode enable
+2020-05-14 12:40:45,526 INFO 21365 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-14 12:40:45,654 INFO 21365 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-14 12:40:45,656 INFO 21365 [egg-security] use csrf middleware
+2020-05-14 12:40:45,658 INFO 21365 [egg-security] use methodnoallow middleware
+2020-05-14 12:40:45,658 INFO 21365 [egg-security] use noopen middleware
+2020-05-14 12:40:45,659 INFO 21365 [egg-security] use nosniff middleware
+2020-05-14 12:40:45,660 INFO 21365 [egg-security] use xssProtection middleware
+2020-05-14 12:40:45,661 INFO 21365 [egg-security] use xframe middleware
+2020-05-14 12:40:45,661 INFO 21365 [egg-security] use dta middleware
+2020-05-14 12:40:45,661 INFO 21365 [egg-security] compose 7 middlewares into one security middleware
+2020-05-14 12:40:45,675 INFO 21365 [egg:core] dump config after load, 8ms
+2020-05-14 12:40:45,697 INFO 21365 [egg-watcher:application] watcher start success
+2020-05-14 12:40:45,840 INFO 21365 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 12:40:45 GMT+0800 (GMT+08:00)
+2020-05-14 12:40:45,850 INFO 21365 [egg:core] dump config after ready, 8ms
+2020-05-14 12:41:57,188 INFO 21416 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-14 12:41:57,222 INFO 21416 [egg-multipart] stream mode enable
+2020-05-14 12:41:57,224 INFO 21416 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-14 12:41:57,308 INFO 21416 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-14 12:41:57,310 INFO 21416 [egg-security] use csrf middleware
+2020-05-14 12:41:57,311 INFO 21416 [egg-security] use methodnoallow middleware
+2020-05-14 12:41:57,312 INFO 21416 [egg-security] use noopen middleware
+2020-05-14 12:41:57,312 INFO 21416 [egg-security] use nosniff middleware
+2020-05-14 12:41:57,313 INFO 21416 [egg-security] use xssProtection middleware
+2020-05-14 12:41:57,313 INFO 21416 [egg-security] use xframe middleware
+2020-05-14 12:41:57,314 INFO 21416 [egg-security] use dta middleware
+2020-05-14 12:41:57,314 INFO 21416 [egg-security] compose 7 middlewares into one security middleware
+2020-05-14 12:41:57,326 INFO 21416 [egg:core] dump config after load, 6ms
+2020-05-14 12:41:57,342 INFO 21416 [egg-watcher:application] watcher start success
+2020-05-14 12:41:57,463 INFO 21416 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 12:41:57 GMT+0800 (GMT+08:00)
+2020-05-14 12:41:57,493 INFO 21416 [egg:core] dump config after ready, 28ms
+2020-05-14 12:43:28,676 INFO 21541 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-14 12:43:28,701 INFO 21541 [egg-multipart] stream mode enable
+2020-05-14 12:43:28,703 INFO 21541 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-14 12:43:28,819 INFO 21541 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-14 12:43:28,821 INFO 21541 [egg-security] use csrf middleware
+2020-05-14 12:43:28,822 INFO 21541 [egg-security] use methodnoallow middleware
+2020-05-14 12:43:28,823 INFO 21541 [egg-security] use noopen middleware
+2020-05-14 12:43:28,825 INFO 21541 [egg-security] use nosniff middleware
+2020-05-14 12:43:28,826 INFO 21541 [egg-security] use xssProtection middleware
+2020-05-14 12:43:28,826 INFO 21541 [egg-security] use xframe middleware
+2020-05-14 12:43:28,827 INFO 21541 [egg-security] use dta middleware
+2020-05-14 12:43:28,827 INFO 21541 [egg-security] compose 7 middlewares into one security middleware
+2020-05-14 12:43:28,843 INFO 21541 [egg:core] dump config after load, 7ms
+2020-05-14 12:43:28,861 INFO 21541 [egg-watcher:application] watcher start success
+2020-05-14 12:43:28,893 INFO 21541 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 12:43:28 GMT+0800 (GMT+08:00)
+2020-05-14 12:43:28,904 INFO 21541 [egg:core] dump config after ready, 9ms
+2020-05-14 12:46:19,803 INFO 21603 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-14 12:46:19,843 INFO 21603 [egg-multipart] stream mode enable
+2020-05-14 12:46:19,847 INFO 21603 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-14 12:46:19,986 INFO 21603 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-14 12:46:19,989 INFO 21603 [egg-security] use csrf middleware
+2020-05-14 12:46:19,990 INFO 21603 [egg-security] use methodnoallow middleware
+2020-05-14 12:46:19,991 INFO 21603 [egg-security] use noopen middleware
+2020-05-14 12:46:19,992 INFO 21603 [egg-security] use nosniff middleware
+2020-05-14 12:46:19,993 INFO 21603 [egg-security] use xssProtection middleware
+2020-05-14 12:46:19,994 INFO 21603 [egg-security] use xframe middleware
+2020-05-14 12:46:19,995 INFO 21603 [egg-security] use dta middleware
+2020-05-14 12:46:19,995 INFO 21603 [egg-security] compose 7 middlewares into one security middleware
+2020-05-14 12:46:20,007 INFO 21603 [egg:core] dump config after load, 6ms
+2020-05-14 12:46:20,020 INFO 21603 [egg-watcher:application] watcher start success
+2020-05-14 12:46:20,028 INFO 21603 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 12:46:20 GMT+0800 (GMT+08:00)
+2020-05-14 12:46:20,036 INFO 21603 [egg:core] dump config after ready, 6ms
+2020-05-14 12:46:38,765 INFO 21636 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-14 12:46:38,796 INFO 21636 [egg-multipart] stream mode enable
+2020-05-14 12:46:38,798 INFO 21636 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-14 12:46:38,881 INFO 21636 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-14 12:46:38,884 INFO 21636 [egg-security] use csrf middleware
+2020-05-14 12:46:38,885 INFO 21636 [egg-security] use methodnoallow middleware
+2020-05-14 12:46:38,885 INFO 21636 [egg-security] use noopen middleware
+2020-05-14 12:46:38,886 INFO 21636 [egg-security] use nosniff middleware
+2020-05-14 12:46:38,887 INFO 21636 [egg-security] use xssProtection middleware
+2020-05-14 12:46:38,887 INFO 21636 [egg-security] use xframe middleware
+2020-05-14 12:46:38,888 INFO 21636 [egg-security] use dta middleware
+2020-05-14 12:46:38,888 INFO 21636 [egg-security] compose 7 middlewares into one security middleware
+2020-05-14 12:46:38,900 INFO 21636 [egg:core] dump config after load, 7ms
+2020-05-14 12:46:38,916 INFO 21636 [egg-watcher:application] watcher start success
+2020-05-14 12:46:38,923 INFO 21636 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 12:46:38 GMT+0800 (GMT+08:00)
+2020-05-14 12:46:38,932 INFO 21636 [egg:core] dump config after ready, 7ms
+2020-05-14 12:46:54,838 INFO 21728 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-14 12:46:54,861 INFO 21728 [egg-multipart] stream mode enable
+2020-05-14 12:46:54,863 INFO 21728 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-14 12:46:54,913 INFO 21728 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-14 12:46:54,915 INFO 21728 [egg-security] use csrf middleware
+2020-05-14 12:46:54,915 INFO 21728 [egg-security] use methodnoallow middleware
+2020-05-14 12:46:54,915 INFO 21728 [egg-security] use noopen middleware
+2020-05-14 12:46:54,916 INFO 21728 [egg-security] use nosniff middleware
+2020-05-14 12:46:54,916 INFO 21728 [egg-security] use xssProtection middleware
+2020-05-14 12:46:54,916 INFO 21728 [egg-security] use xframe middleware
+2020-05-14 12:46:54,916 INFO 21728 [egg-security] use dta middleware
+2020-05-14 12:46:54,916 INFO 21728 [egg-security] compose 7 middlewares into one security middleware
+2020-05-14 12:46:54,927 INFO 21728 [egg:core] dump config after load, 6ms
+2020-05-14 12:46:54,941 INFO 21728 [egg-watcher:application] watcher start success
+2020-05-14 12:46:54,945 INFO 21728 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 12:46:54 GMT+0800 (GMT+08:00)
+2020-05-14 12:46:54,953 INFO 21728 [egg:core] dump config after ready, 6ms

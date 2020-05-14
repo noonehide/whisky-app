@@ -1,0 +1,374 @@
+{
+  "middleware": "/Users/jianghui/Code/my_code/whisky-app/config/config.default.ts",
+  "passportLocal": {
+    "usernameField": "/Users/jianghui/Code/my_code/whisky-app/config/config.default.ts",
+    "passwordField": "/Users/jianghui/Code/my_code/whisky-app/config/config.default.ts"
+  },
+  "development": {
+    "watchDirs": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+    "ignoreDirs": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+    "fastReady": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-development@2.4.3@egg-development/config/config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+      "port": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+      "user": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+      "password": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+      "database": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts"
+    },
+    "app": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+    "agent": "/Users/jianghui/Code/my_code/whisky-app/config/config.local.ts",
+    "default": {
+      "database": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
+    "key": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-session@3.2.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "type": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "useSession": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "headerName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "queryName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "value": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "value": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "value": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "policy": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "dirs": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "queryField": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-i18n@2.1.1@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js",
+      "development": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-watcher@3.1.1@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js",
+      "file": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-schedule@3.6.4@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fields": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "files": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/config/config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxAge": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.local.js"
+  },
+  "view": {
+    "root": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.local.js",
+    "defaultExtension": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.default.js",
+    "mapping": {
+      ".js": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+      ".jsx": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+      ".tpl": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.default.js"
+    }
+  },
+  "reactssr": {
+    "doctype": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "layout": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.default.js",
+    "manifest": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "injectHeadRegex": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "injectBodyRegex": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "injectCss": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "injectJs": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "crossorigin": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "injectRes": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "mergeLocals": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "fallbackToClient": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js",
+    "afterRender": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-react-ssr@3.0.0@egg-view-react-ssr/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.local.js"
+  },
+  "cors": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-cors@2.2.3@egg-cors/config/config.default.js",
+  "webpack": {
+    "port": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack@4.5.3@egg-webpack/config/config.default.js",
+    "proxy": {
+      "host": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack@4.5.3@egg-webpack/config/config.default.js",
+      "match": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack@4.5.3@egg-webpack/config/config.default.js"
+    },
+    "webpackConfigList": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.local.js",
+    "cli": {
+      "name": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.local.js",
+      "cmd": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.local.js",
+      "package": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.local.js"
+    }
+  },
+  "webpackreact": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-webpack-react@3.0.0@egg-webpack-react/config/config.default.js",
+  "env": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "name": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "keys": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.default.js",
+  "cookies": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "proxy": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxIpsCount": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "maxProxyCount": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "protocolHeaders": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "ipHeaders": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "hostHeaders": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "version": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "description": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "debug": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "start": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "print": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "build": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "size": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "tsc": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "chantdgelog": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@easy-team/res": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "@hubcarl/json-typescript-mapper": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "antd": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "axios": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-mysql": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-passport": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "egg-passport-local": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "lodash": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "lodash-id": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "lowdb": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "mobx": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "mobx-react": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "moment": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "react-loadable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "react-redux": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "react-router": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "react-router-config": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "react-router-dom": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "react-router-redux": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "redux": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "shortid": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "showdown": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@easy-team/res-cli": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "babel-plugin-import": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "less": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "less-loader": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "egg": {
+      "typescript": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "url": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "author": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "license": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "homepage": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "webpack": {
+      "loaders": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "HOME": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "rundir": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "notFound": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "sitefile": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "middlewares": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "httpClient": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "formLimit": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "jsonLimit": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "textLimit": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "strict": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "depth": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "parameterLimit": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "onerror": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "encoding": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "env": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "level": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "consoleLevel": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "outputJSON": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "buffer": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "appLogName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "agentLogName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "errorLogName": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxSockets": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "logging": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "serverTimeout": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "port": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+      "hostname": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+    "responseTimeout": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/config.default.js",
+  "test": {
+    "key": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_res@2.0.1@@easy-team/res/config/config.default.js"
+  }
+}

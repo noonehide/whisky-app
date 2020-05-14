@@ -1,0 +1,23 @@
+{
+  "blog.js": "/public/js/chunk/blog.js",
+  "common.css": "/public/css/common.css",
+  "common.js": "/public/js/chunk/common.js",
+  "runtime.js": "/public/js/runtime.js",
+  "deps": {
+    "blog.js": {
+      "js": [
+        "/public/js/runtime.js",
+        "/public/js/chunk/common.js",
+        "/public/js/chunk/blog.js"
+      ],
+      "css": [
+        "/public/css/common.css"
+      ]
+    }
+  },
+  "info": {
+    "publicPath": "/public/",
+    "buildPath": "app/public",
+    "mapped": true
+  }
+}
