@@ -761,3 +761,19 @@
 2020-05-14 13:05:57,767 INFO 22972 [egg-watcher:application] watcher start success
 2020-05-14 13:05:57,778 INFO 22972 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 13:05:57 GMT+0800 (GMT+08:00)
 2020-05-14 13:05:57,786 INFO 22972 [egg:core] dump config after ready, 6ms
+2020-05-15 18:57:32,923 INFO 28302 [egg:logger] init all loggers with options: {"dir":"/Users/jianghui/Code/my_code/whisky-app/logs/whisky-app","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"whisky-app-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-15 18:57:32,945 INFO 28302 [egg-multipart] stream mode enable
+2020-05-15 18:57:32,949 INFO 28302 [egg-mysql] connecting root@127.0.0.1:3306/whisky
+2020-05-15 18:57:33,139 INFO 28302 [egg-static] starting static serve /public/ -> /Users/jianghui/Code/my_code/whisky-app/app/public
+2020-05-15 18:57:33,142 INFO 28302 [egg-security] use csrf middleware
+2020-05-15 18:57:33,144 INFO 28302 [egg-security] use methodnoallow middleware
+2020-05-15 18:57:33,144 INFO 28302 [egg-security] use noopen middleware
+2020-05-15 18:57:33,146 INFO 28302 [egg-security] use nosniff middleware
+2020-05-15 18:57:33,147 INFO 28302 [egg-security] use xssProtection middleware
+2020-05-15 18:57:33,148 INFO 28302 [egg-security] use xframe middleware
+2020-05-15 18:57:33,149 INFO 28302 [egg-security] use dta middleware
+2020-05-15 18:57:33,149 INFO 28302 [egg-security] compose 7 middlewares into one security middleware
+2020-05-15 18:57:33,193 INFO 28302 [egg:core] dump config after load, 7ms
+2020-05-15 18:57:33,207 INFO 28302 [egg-watcher:application] watcher start success
+2020-05-15 18:57:33,278 INFO 28302 [egg-mysql] instance[0] status OK, rds currentTime: Fri May 15 2020 18:57:33 GMT+0800 (GMT+08:00)
+2020-05-15 18:57:33,286 INFO 28302 [egg:core] dump config after ready, 6ms
