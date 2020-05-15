@@ -39,8 +39,8 @@
   "devDependencies": {
     "@easy-team/res-cli": "^2.0.0",
     "babel-plugin-import": "^1.13.0",
-    "less": "^3.11.1",
-    "less-loader": "^6.1.0"
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5"
   },
   "egg": {
     "typescript": true

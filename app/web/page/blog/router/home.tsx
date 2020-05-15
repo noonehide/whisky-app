@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import { hot } from 'react-hot-loader/root';
 import { Form, Input, Button, Checkbox } from 'antd';
-import './main.css';
-import './test.less';
 
 const layout = {
   labelCol: { span: 8 },
@@ -48,7 +45,6 @@ const Main = () => {
       <Form.Item {...tailLayout} name="remember" valuePropName="checked">
         <Checkbox>Remember me</Checkbox>
       </Form.Item>
-      <div className="red"> 1`11</div>
       <Form.Item {...tailLayout}>
         <Button type="primary" htmlType="submit">
           Submit

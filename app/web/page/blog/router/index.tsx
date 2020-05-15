@@ -1,8 +1,6 @@
 import { Route } from 'react-router-dom';
 import Home from './home';
-import Example from './example';
-import Detail from './detail';
-import About from './about';
+
 const NotFound = () => {
   return (
     <Route render={({ staticContext }) => {
@@ -20,18 +18,6 @@ const NotFound = () => {
 
 export default function createRouter() {
   return [
-    {
-      path: '/detail/:id',
-      component: Detail
-    },
-    {
-      path: '/example',
-      component: Example
-    },
-    {
-      path: '/about',
-      component: About
-    },
     {
       path: '/',
       component: Home

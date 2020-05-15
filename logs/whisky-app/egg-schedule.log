@@ -175,3 +175,48 @@
 2020-05-14 12:46:54,861 INFO 21728 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
 2020-05-14 12:46:54,861 INFO 21728 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
 2020-05-14 12:46:54,861 INFO 21728 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 12:52:44,362 INFO 22129 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 12:52:44,362 INFO 22129 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 12:52:44,362 INFO 22129 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 12:52:44,568 INFO 22098 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56235434ms at 2020-05-15 04:30:00.002
+2020-05-14 12:52:44,569 INFO 22098 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 40035431ms at 2020-05-15 00:00:00.000
+2020-05-14 12:52:44,569 INFO 22098 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 40036431ms at 2020-05-15 00:00:01.000
+2020-05-14 12:53:34,767 INFO 22179 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 12:53:34,767 INFO 22179 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 12:53:34,767 INFO 22179 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 12:53:50,918 INFO 22248 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56169085ms at 2020-05-15 04:30:00.003
+2020-05-14 12:53:50,918 INFO 22248 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 39969082ms at 2020-05-15 00:00:00.000
+2020-05-14 12:53:50,919 INFO 22248 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39970081ms at 2020-05-15 00:00:01.000
+2020-05-14 12:53:50,820 INFO 22279 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 12:53:50,820 INFO 22279 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 12:53:50,820 INFO 22279 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 12:55:21,565 INFO 22391 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 12:55:21,565 INFO 22391 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 12:55:21,566 INFO 22391 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 12:55:21,744 INFO 22360 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 56078259ms at 2020-05-15 04:30:00.003
+2020-05-14 12:55:21,744 INFO 22360 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 39878256ms at 2020-05-15 00:00:00.000
+2020-05-14 12:55:21,745 INFO 22360 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39879256ms at 2020-05-15 00:00:01.001
+2020-05-14 12:56:47,795 INFO 22528 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 12:56:47,796 INFO 22528 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 12:56:47,796 INFO 22528 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 12:56:48,023 INFO 22497 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 55991980ms at 2020-05-15 04:30:00.002
+2020-05-14 12:56:48,023 INFO 22497 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 39791977ms at 2020-05-15 00:00:00.000
+2020-05-14 12:56:48,023 INFO 22497 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39792977ms at 2020-05-15 00:00:01.000
+2020-05-14 13:01:36,139 INFO 22754 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 13:01:36,139 INFO 22754 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 13:01:36,139 INFO 22754 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 13:02:09,268 INFO 22848 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 13:02:09,268 INFO 22848 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 13:02:09,268 INFO 22848 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 13:02:09,427 INFO 22810 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 55670576ms at 2020-05-15 04:30:00.003
+2020-05-14 13:02:09,427 INFO 22810 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js next time will execute after 39470573ms at 2020-05-15 00:00:00.000
+2020-05-14 13:02:09,427 INFO 22810 [Timer] /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 39471573ms at 2020-05-15 00:00:01.000
+2020-05-14 13:02:55,118 INFO 22886 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 13:02:55,118 INFO 22886 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 13:02:55,118 INFO 22886 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 13:02:59,110 INFO 22917 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 13:02:59,110 INFO 22917 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 13:02:59,110 INFO 22917 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js
+2020-05-14 13:05:57,577 INFO 22972 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart/app/schedule/clean_tmpdir.js
+2020-05-14 13:05:57,577 INFO 22972 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/clean_log.js
+2020-05-14 13:05:57,577 INFO 22972 [egg-schedule]: register schedule /Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator/app/schedule/rotate_by_file.js

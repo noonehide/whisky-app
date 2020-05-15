@@ -328,19 +328,6 @@
               },
               {
                 "test": {},
-                "exclude": {},
-                "enforce": "pre",
-                "use": [
-                  {
-                    "loader": "tslint-loader",
-                    "options": {
-                      "fix": true
-                    }
-                  }
-                ]
-              },
-              {
-                "test": {},
                 "use": [
                   "/Users/jianghui/Code/my_code/whisky-app/node_modules/_mini-css-extract-plugin@0.8.2@mini-css-extract-plugin/dist/loader.js",
                   {
@@ -406,12 +393,7 @@
                   {
                     "options": {
                       "sourceMap": true,
-                      "javascriptEnabled": true,
-                      "modifyVars": {
-                        "primary-color": "red",
-                        "link-color": "#1DA57A",
-                        "border-radius-base": "2px"
-                      }
+                      "javascriptEnabled": true
                     },
                     "loader": "less-loader"
                   }
@@ -488,7 +470,7 @@
                 ]
               },
               {
-                "test": "~config~webpack~webpackConfigList~0~module~rules~3~exclude~0",
+                "test": "~config~webpack~webpackConfigList~0~module~rules~2~exclude~0",
                 "use": [
                   "/Users/jianghui/Code/my_code/whisky-app/node_modules/_mini-css-extract-plugin@0.8.2@mini-css-extract-plugin/dist/loader.js",
                   {
@@ -504,6 +486,35 @@
                     "options": {
                       "sourceMap": true
                     }
+                  }
+                ],
+                "include": [
+                  "~config~webpack~webpackConfigList~0~module~rules~2~exclude~0"
+                ]
+              },
+              {
+                "test": "~config~webpack~webpackConfigList~0~module~rules~3~exclude~0",
+                "use": [
+                  "/Users/jianghui/Code/my_code/whisky-app/node_modules/_mini-css-extract-plugin@0.8.2@mini-css-extract-plugin/dist/loader.js",
+                  {
+                    "options": {
+                      "sourceMap": true,
+                      "modules": true,
+                      "importLoaders": 2
+                    },
+                    "loader": "css-loader"
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {
+                      "sourceMap": true
+                    }
+                  },
+                  {
+                    "options": {
+                      "sourceMap": true
+                    },
+                    "loader": "sass-loader"
                   }
                 ],
                 "include": [
@@ -532,7 +543,7 @@
                     "options": {
                       "sourceMap": true
                     },
-                    "loader": "sass-loader"
+                    "loader": "less-loader"
                   }
                 ],
                 "include": [
@@ -561,40 +572,11 @@
                     "options": {
                       "sourceMap": true
                     },
-                    "loader": "less-loader"
-                  }
-                ],
-                "include": [
-                  "~config~webpack~webpackConfigList~0~module~rules~5~exclude~0"
-                ]
-              },
-              {
-                "test": "~config~webpack~webpackConfigList~0~module~rules~6~exclude~0",
-                "use": [
-                  "/Users/jianghui/Code/my_code/whisky-app/node_modules/_mini-css-extract-plugin@0.8.2@mini-css-extract-plugin/dist/loader.js",
-                  {
-                    "options": {
-                      "sourceMap": true,
-                      "modules": true,
-                      "importLoaders": 2
-                    },
-                    "loader": "css-loader"
-                  },
-                  {
-                    "loader": "postcss-loader",
-                    "options": {
-                      "sourceMap": true
-                    }
-                  },
-                  {
-                    "options": {
-                      "sourceMap": true
-                    },
                     "loader": "stylus-loader"
                   }
                 ],
                 "include": [
-                  "~config~webpack~webpackConfigList~0~module~rules~6~exclude~0"
+                  "~config~webpack~webpackConfigList~0~module~rules~5~exclude~0"
                 ]
               }
             ]
@@ -828,19 +810,6 @@
               },
               {
                 "test": {},
-                "exclude": {},
-                "enforce": "pre",
-                "use": [
-                  {
-                    "loader": "tslint-loader",
-                    "options": {
-                      "fix": true
-                    }
-                  }
-                ]
-              },
-              {
-                "test": {},
                 "use": [
                   {
                     "loader": "isomorphic-style-loader"
@@ -861,7 +830,7 @@
               {
                 "test": {},
                 "use": [
-                  "~config~webpack~webpackConfigList~1~module~rules~3~use~0",
+                  "~config~webpack~webpackConfigList~1~module~rules~2~use~0",
                   {
                     "loader": "css-loader",
                     "options": {}
@@ -882,7 +851,7 @@
               {
                 "test": {},
                 "use": [
-                  "~config~webpack~webpackConfigList~1~module~rules~3~use~0",
+                  "~config~webpack~webpackConfigList~1~module~rules~2~use~0",
                   {
                     "loader": "css-loader",
                     "options": {}
@@ -894,12 +863,7 @@
                   {
                     "loader": "less-loader",
                     "options": {
-                      "javascriptEnabled": true,
-                      "modifyVars": {
-                        "primary-color": "red",
-                        "link-color": "#1DA57A",
-                        "border-radius-base": "2px"
-                      }
+                      "javascriptEnabled": true
                     }
                   }
                 ],
@@ -914,7 +878,7 @@
               {
                 "test": {},
                 "use": [
-                  "~config~webpack~webpackConfigList~1~module~rules~3~use~0",
+                  "~config~webpack~webpackConfigList~1~module~rules~2~use~0",
                   {
                     "loader": "css-loader",
                     "options": {}
@@ -969,7 +933,7 @@
                 ]
               },
               {
-                "test": "~config~webpack~webpackConfigList~1~module~rules~3~exclude~0",
+                "test": "~config~webpack~webpackConfigList~1~module~rules~2~exclude~0",
                 "use": [
                   {
                     "loader": "isomorphic-style-loader",
@@ -984,6 +948,33 @@
                   },
                   {
                     "loader": "postcss-loader",
+                    "options": {}
+                  }
+                ],
+                "include": [
+                  "~config~webpack~webpackConfigList~1~module~rules~2~exclude~0"
+                ]
+              },
+              {
+                "test": "~config~webpack~webpackConfigList~1~module~rules~3~exclude~0",
+                "use": [
+                  {
+                    "loader": "isomorphic-style-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "css-loader",
+                    "options": {
+                      "modules": true,
+                      "importLoaders": 2
+                    }
+                  },
+                  {
+                    "loader": "postcss-loader",
+                    "options": {}
+                  },
+                  {
+                    "loader": "sass-loader",
                     "options": {}
                   }
                 ],
@@ -1010,7 +1001,7 @@
                     "options": {}
                   },
                   {
-                    "loader": "sass-loader",
+                    "loader": "less-loader",
                     "options": {}
                   }
                 ],
@@ -1037,39 +1028,12 @@
                     "options": {}
                   },
                   {
-                    "loader": "less-loader",
-                    "options": {}
-                  }
-                ],
-                "include": [
-                  "~config~webpack~webpackConfigList~1~module~rules~5~exclude~0"
-                ]
-              },
-              {
-                "test": "~config~webpack~webpackConfigList~1~module~rules~6~exclude~0",
-                "use": [
-                  {
-                    "loader": "isomorphic-style-loader",
-                    "options": {}
-                  },
-                  {
-                    "loader": "css-loader",
-                    "options": {
-                      "modules": true,
-                      "importLoaders": 2
-                    }
-                  },
-                  {
-                    "loader": "postcss-loader",
-                    "options": {}
-                  },
-                  {
                     "loader": "stylus-loader",
                     "options": {}
                   }
                 ],
                 "include": [
-                  "~config~webpack~webpackConfigList~1~module~rules~6~exclude~0"
+                  "~config~webpack~webpackConfigList~1~module~rules~5~exclude~0"
                 ]
               }
             ]
@@ -1210,8 +1174,8 @@
       "devDependencies": {
         "@easy-team/res-cli": "^2.0.0",
         "babel-plugin-import": "^1.13.0",
-        "less": "^3.11.1",
-        "less-loader": "^6.1.0"
+        "less": "^2.7.2",
+        "less-loader": "^4.0.5"
       },
       "egg": {
         "typescript": true

@@ -1,7 +1,10 @@
 'use strict';
 // https://www.yuque.com/easy-team/egg-react/config
 const path = require('path');
-const resolve = (filepath) => path.resolve(__dirname, filepath);
+const resolve = (filepath) => {
+  let res = path.resolve(__dirname, filepath)
+  return res
+};
 module.exports = {
   entry: {
     blog: 'app/web/page/blog/index.tsx'
@@ -12,12 +15,7 @@ module.exports = {
         less: {
           include: [resolve('../app/web'), resolve('../node_modules')],
           options: {
-            javascriptEnabled: true,
-            modifyVars: {
-              'primary-color': 'red',
-              'link-color': '#1DA57A',
-              'border-radius-base': '2px'
-            }
+            javascriptEnabled: true
           }
         }
       },
@@ -28,9 +26,5 @@ module.exports = {
   },
   plugins: [
     { imagemini: false }
-  ],
-  loaders: {
-    less: true,
-    tslint: { options: { fix: true } }
-  }
+  ]
 };
