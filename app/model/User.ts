@@ -1,19 +1,15 @@
-'use strict';
+module.exports = app => {
+  const { STRING, INTEGER, DATE } = app.Sequelize;
 
-import { JsonProperty } from '@hubcarl/json-typescript-mapper';
+  const User = app.model.define('user', {
+    id: { type: INTEGER, primaryKey: true, autoIncrement: true },
+    userid: STRING(30),
+    username: STRING(30),
+    password: STRING(100),
+    nickname: STRING(10),
+    created_at: DATE,
+    updated_at: DATE,
+  });
 
-export default class Article {
-  @JsonProperty('id')
-  public id?: string;
-  @JsonProperty('username')
-  public username?: string;
-  @JsonProperty('password')
-  public password?: string;
-
-  // constructor must be init everyone JsonProperty
-  constructor() {
-    this.id = '';
-    this.username = '';
-    this.password = '';
-  }
-}
+  return User;
+};

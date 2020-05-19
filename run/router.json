@@ -2,12 +2,11 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/demo/node",
-    "regexp": "/^\\/demo\\/node(?:\\/(?=$))?$/",
+    "path": "/api/blog/login",
+    "regexp": "/^\\/api\\/blog\\/login(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -15,76 +14,13 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/demo/async",
-    "regexp": "/^\\/demo\\/async(?:\\/(?=$))?$/",
+    "path": "/api/blog/register",
+    "regexp": "/^\\/api\\/blog\\/register(?:\\/(?=$))?$/",
     "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/demo/api/article",
-    "regexp": "/^\\/demo\\/api\\/article(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/demo/api/testMysql",
-    "regexp": "/^\\/demo\\/api\\/testMysql(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
-    "path": "/api/blog/list",
-    "regexp": "/^\\/api\\/blog\\/list(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [
-      {
-        "name": "id",
-        "prefix": "/",
-        "delimiter": "/",
-        "optional": false,
-        "repeat": false,
-        "partial": false,
-        "asterisk": false,
-        "pattern": "[^\\/]+?"
-      }
-    ],
-    "path": "/api/blog/:id",
-    "regexp": "/^\\/api\\/blog\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
-    "stack": [
+      "middleware",
       "wrappedController"
     ]
   },

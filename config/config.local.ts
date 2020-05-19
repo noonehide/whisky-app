@@ -29,6 +29,14 @@ export default (app: EggAppConfig) => {
     agent: false,
   };
 
+  config.sequelize = {
+    dialect: 'mysql',
+    host: '127.0.0.1',
+    port: 3306,
+    database: 'whisky',
+    password: '12345678'
+  };
+
   return config;
 };
 

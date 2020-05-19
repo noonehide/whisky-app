@@ -78,6 +78,22 @@ npm run build
 
 ## 开发
 
+#### 数据库迭代-生成一个 Migrations文件
+
+```js
+  npx sequelize migration:generate --name=<操作名称>
+```
+
+#### 数据库升级版本-升级版本的时候会调用up函数,在函数中对数据表进行更新迭代（创建、修改、删除
+```js
+  npx sequelize db:migrate
+```
+### 数据库回退版本
+```js
+  npx sequelize db:migrate:undo
+```
+
+
 #### 编写前端代码
 
 >添加 `${root}/app/web/page/demo.tsx` 前端代码

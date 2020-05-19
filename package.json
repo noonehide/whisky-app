@@ -14,18 +14,17 @@
   },
   "dependencies": {
     "@easy-team/res": "^2.0.0",
-    "@hubcarl/json-typescript-mapper": "2.0.0",
     "antd": "^4.2.2",
     "axios": "^0.19.2",
+    "egg-jwt": "^3.1.7",
     "egg-mysql": "^3.0.0",
-    "egg-passport": "^2.1.1",
-    "egg-passport-local": "^1.2.1",
+    "egg-redis": "^2.4.0",
+    "egg-sequelize": "^5.2.1",
+    "js-cookie": "^2.2.1",
     "lodash": "^4.17.4",
     "lodash-id": "^0.14.0",
-    "lowdb": "^1.0.0",
-    "mobx": "^5.15.3",
-    "mobx-react": "^6.1.4",
     "moment": "^2.17.1",
+    "mysql2": "^2.1.0",
     "react-loadable": "^5.5.0",
     "react-redux": "^5.0.6",
     "react-router": "^4.2.0",
@@ -33,14 +32,15 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.8",
     "redux": "^3.7.2",
-    "shortid": "^2.2.8",
-    "showdown": "^1.8.6"
+    "shortid": "^2.2.8"
   },
   "devDependencies": {
     "@easy-team/res-cli": "^2.0.0",
+    "@types/shortid": "^0.0.29",
     "babel-plugin-import": "^1.13.0",
     "less": "^2.7.2",
-    "less-loader": "^4.0.5"
+    "less-loader": "^4.0.5",
+    "sequelize-cli": "^5.5.1"
   },
   "egg": {
     "typescript": true
@@ -51,13 +51,8 @@
   "ci": {
     "version": "8, 10, 12"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/easy-team/egg-react-typescript-boilerplate.git"
-  },
-  "author": "hubcarl@126.com",
+  "author": "noonehide@163.com",
   "license": "MIT",
-  "homepage": "https://github.com/easy-team/egg-react-typescript-boilerplate",
   "webpack": {
     "loaders": {}
   }

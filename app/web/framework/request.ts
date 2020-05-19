@@ -1,20 +1,40 @@
 'use strict';
 import axios from 'axios';
+import Cookies from 'js-cookie';
+
 // axios.defaults.baseURL = 'http://127.0.0.1:7001';
 axios.defaults.timeout = 15000;
 axios.defaults.xsrfHeaderName = 'x-csrf-token';
 axios.defaults.xsrfCookieName = 'csrfToken';
-export default {
-  async post(url, json, locals = {}) {
-    const headers = {};
-    if (EASY_ENV_IS_NODE) {
-      headers['x-csrf-token'] = locals.csrf;
-      headers.Cookie = `csrfToken=${locals.csrf}`;
+
+axios.interceptors.request.use(function (config) {
+  // 在发送请求之前做些什么
+  config.headers.Authorization = `Bearer ${Cookies.get('token')}`;
+  return config;
+}, function (error) {
+  // 对请求错误做些什么
+  return Promise.reject(error);
+});
+
+axios.interceptors.response.use((response) => {
+  if (response.status === 200) {
+    if (response.data.code === 0) {
+      return response.data
     }
-    const res = await axios.post(`${locals.origin}${url}`, json, { headers });
+  }
+  return Promise.reject(response)
+}, (error) => {
+  return Promise.reject(error)
+})
+
+export default {
+  async post(url, json, locals: any = {
+    origin: '/api'
+  }) {
+    const res = await axios.post(`${locals.origin}${url}`, json);
     return res.data;
   },
-  async get(url, locals = {}) {
+  async get(url, locals: any = {}) {
     const res = await axios.get(`${locals.origin}${url}`);
     return res.data;
   }

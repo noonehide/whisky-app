@@ -194,7 +194,7 @@
           "entry": {
             "blog": [
               "react-hot-loader/patch",
-              "/Users/jianghui/Code/my_code/whisky-app/node_modules/_webpack-hot-middleware@2.25.0@webpack-hot-middleware/client?path=http://172.18.252.34:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/jianghui/Code/my_code/whisky-app/node_modules/_webpack-hot-middleware@2.25.0@webpack-hot-middleware/client?path=http://172.18.252.34:9008/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_easywebpack@4.2.7@@easy-team/easywebpack/utils/hot.js",
               "/Users/jianghui/Code/my_code/whisky-app/app/web/page/blog/index.tsx"
             ]
@@ -563,7 +563,7 @@
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9000\""
+                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9008\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -587,7 +587,7 @@
                 "generate": null,
                 "sort": null,
                 "baseDir": "/Users/jianghui/Code/my_code/whisky-app",
-                "host": "http://172.18.252.34:9000",
+                "host": "http://172.18.252.34:9008",
                 "proxy": true,
                 "buildPath": "/Users/jianghui/Code/my_code/whisky-app/app/public",
                 "publicPath": "/public/",
@@ -1013,7 +1013,7 @@
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9000\""
+                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9008\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -1076,9 +1076,34 @@
         "database": "whisky"
       }
     },
-    "passportLocal": {
-      "usernameField": "username",
-      "passwordField": "password"
+    "jwt": {
+      "secret": "<String len: 6>",
+      "enable": true,
+      "ignore": [
+        "/",
+        "/api/blog/login/",
+        "/public/"
+      ]
+    },
+    "redis": {
+      "default": {},
+      "app": true,
+      "agent": false,
+      "supportTimeCommand": true,
+      "user": {
+        "port": 6379,
+        "host": "127.0.0.1",
+        "password": "<String len: 0>",
+        "db": 0
+      }
+    },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "whisky",
+      "host": "127.0.0.1",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 8>"
     },
     "env": "local",
     "name": "whisky-app",
@@ -1106,18 +1131,17 @@
       },
       "dependencies": {
         "@easy-team/res": "^2.0.0",
-        "@hubcarl/json-typescript-mapper": "2.0.0",
         "antd": "^4.2.2",
         "axios": "^0.19.2",
+        "egg-jwt": "^3.1.7",
         "egg-mysql": "^3.0.0",
-        "egg-passport": "^2.1.1",
-        "egg-passport-local": "^1.2.1",
+        "egg-redis": "^2.4.0",
+        "egg-sequelize": "^5.2.1",
+        "js-cookie": "^2.2.1",
         "lodash": "^4.17.4",
         "lodash-id": "^0.14.0",
-        "lowdb": "^1.0.0",
-        "mobx": "^5.15.3",
-        "mobx-react": "^6.1.4",
         "moment": "^2.17.1",
+        "mysql2": "^2.1.0",
         "react-loadable": "^5.5.0",
         "react-redux": "^5.0.6",
         "react-router": "^4.2.0",
@@ -1125,14 +1149,15 @@
         "react-router-dom": "^4.2.2",
         "react-router-redux": "^4.0.8",
         "redux": "^3.7.2",
-        "shortid": "^2.2.8",
-        "showdown": "^1.8.6"
+        "shortid": "^2.2.8"
       },
       "devDependencies": {
         "@easy-team/res-cli": "^2.0.0",
+        "@types/shortid": "^0.0.29",
         "babel-plugin-import": "^1.13.0",
         "less": "^2.7.2",
-        "less-loader": "^4.0.5"
+        "less-loader": "^4.0.5",
+        "sequelize-cli": "^5.5.1"
       },
       "egg": {
         "typescript": true
@@ -1143,13 +1168,8 @@
       "ci": {
         "version": "8, 10, 12"
       },
-      "repository": {
-        "type": "git",
-        "url": "git+https://github.com/easy-team/egg-react-typescript-boilerplate.git"
-      },
-      "author": "hubcarl@126.com",
+      "author": "noonehide@163.com",
       "license": "MIT",
-      "homepage": "https://github.com/easy-team/egg-react-typescript-boilerplate",
       "webpack": {
         "loaders": {}
       }
@@ -1269,7 +1289,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-session@3.2.0@egg-session",
       "version": "3.2.0"
     },
@@ -1282,7 +1302,7 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-security@2.8.0@egg-security",
       "version": "2.8.0"
     },
@@ -1295,7 +1315,7 @@
         "security"
       ],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-jsonp@2.0.0@egg-jsonp",
       "version": "2.0.0"
     },
@@ -1308,7 +1328,7 @@
         "jsonp"
       ],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-onerror@2.1.0@egg-onerror",
       "version": "2.1.0"
     },
@@ -1319,7 +1339,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-i18n@2.1.1@egg-i18n",
       "version": "2.1.1"
     },
@@ -1330,7 +1350,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-watcher@3.1.1@egg-watcher",
       "version": "3.1.1"
     },
@@ -1341,7 +1361,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-schedule@3.6.4@egg-schedule",
       "version": "3.6.4"
     },
@@ -1354,7 +1374,7 @@
         "schedule"
       ],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-multipart@2.10.3@egg-multipart",
       "version": "2.10.3"
     },
@@ -1369,7 +1389,7 @@
       "env": [
         "local"
       ],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-development@2.4.3@egg-development",
       "version": "2.4.3"
     },
@@ -1382,7 +1402,7 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-logrotator@3.1.0@egg-logrotator",
       "version": "3.1.0"
     },
@@ -1393,7 +1413,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-static@2.2.0@egg-static",
       "version": "2.2.0"
     },
@@ -1404,7 +1424,7 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.0@egg/config/plugin.js",
+      "from": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/plugin.js",
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-view@2.1.2@egg-view",
       "version": "2.1.2"
     },
@@ -1481,31 +1501,40 @@
       "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-mysql@3.0.0@egg-mysql",
       "version": "3.0.0"
     },
-    "passport": {
+    "jwt": {
       "enable": true,
-      "package": "egg-passport",
-      "name": "passport",
-      "dependencies": [
-        "session"
+      "package": "egg-jwt",
+      "name": "jwt",
+      "dependencies": [],
+      "optionalDependencies": [
+        "onerror"
       ],
-      "optionalDependencies": [],
       "env": [],
       "from": "/Users/jianghui/Code/my_code/whisky-app/config/plugin.ts",
-      "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-passport@2.1.1@egg-passport",
-      "version": "2.1.1"
+      "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-jwt@3.1.7@egg-jwt",
+      "version": "3.1.7"
     },
-    "passportLocal": {
+    "redis": {
       "enable": true,
-      "package": "egg-passport-local",
-      "name": "passportLocal",
-      "dependencies": [
-        "passport"
-      ],
+      "package": "egg-redis",
+      "name": "redis",
+      "dependencies": [],
       "optionalDependencies": [],
       "env": [],
       "from": "/Users/jianghui/Code/my_code/whisky-app/config/plugin.ts",
-      "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-passport-local@1.2.1@egg-passport-local",
-      "version": "1.2.1"
+      "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-redis@2.4.0@egg-redis",
+      "version": "2.4.0"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/jianghui/Code/my_code/whisky-app/config/plugin.ts",
+      "path": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg-sequelize@5.2.1@egg-sequelize",
+      "version": "5.2.1"
     }
   }
 }
