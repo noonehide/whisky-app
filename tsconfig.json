@@ -14,7 +14,7 @@
     "app/**/*.ts",
     "config/**/*.ts",
     "mock/**/*.ts",
-    "test/**/*.ts"
+    "test/**/*.ts", "app/extend/helper.js", "app/middleware/jwt.js", "app/web/framework/request.js"
   ],
   "exclude": [
     "public",

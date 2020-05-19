@@ -3,12 +3,17 @@ exports.mysql = {
     package: 'egg-mysql',
 };
 
-exports.passport = {
+exports.jwt = {
     enable: true,
-    package: 'egg-passport',
+    package: "egg-jwt"
 };
 
-exports.passportLocal = {
+exports.redis = {
     enable: true,
-    package: 'egg-passport-local',
+    package: 'egg-redis',
+};
+
+exports.sequelize = {
+    enable: true,
+    package: 'egg-sequelize',
 };

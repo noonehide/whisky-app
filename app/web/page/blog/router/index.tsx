@@ -1,30 +1,29 @@
 import { Route } from 'react-router-dom';
-import Home from './home';
-
-const NotFound = () => {
-  return (
-    <Route render={({ staticContext }) => {
-      if (staticContext) {
-        staticContext.status = 404;
-      }
-      return (
-        <div>
-          <h1>404 : Not Found</h1>
-        </div>
-      );
-    }}/>
-  );
-};
+import Login from '../view/login/login';
+import Home from '../view/home/home';
+import AppList from '../view/app-list';
 
 export default function createRouter() {
   return [
     {
-      path: '/',
+      path: '/home',
       component: Home
     },
     {
-      path: '*',
+      path: '/login',
       component: Home
+    },
+    {
+      path: '/app-list',
+      component: AppList
+    },
+    {
+      path: '/',
+      component: Login
+    },
+    {
+      path: '*',
+      component: Login
     }
   ];
 }

@@ -8,6 +8,7 @@ declare var process: {
 };
 interface Window {
   __INITIAL_STATE__: any;
+  EASY_ENV_IS_NODE: boolean;
   stores: any;
 }
 interface NodeModule {

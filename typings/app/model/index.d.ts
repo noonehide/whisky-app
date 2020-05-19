@@ -2,12 +2,14 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportUser from '../../../app/model/User';
-import ExportArticle from '../../../app/model/article';
+import ExportApp from '../../../app/model/app';
+import ExportUser from '../../../app/model/user';
+import ExportUserAppRelation from '../../../app/model/user_app_relation';
 
 declare module 'egg' {
   interface IModel {
+    App: ReturnType<typeof ExportApp>;
     User: ReturnType<typeof ExportUser>;
-    Article: ReturnType<typeof ExportArticle>;
+    UserAppRelation: ReturnType<typeof ExportUserAppRelation>;
   }
 }

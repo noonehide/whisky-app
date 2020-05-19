@@ -2,12 +2,12 @@
 // Do not modify this file!!!!!!!!!
 
 import 'egg';
-import ExportAccess from '../../../app/middleware/access';
+import ExportJwt = require('../../../app/middleware/jwt');
 import ExportLocal from '../../../app/middleware/local';
 
 declare module 'egg' {
   interface IMiddleware {
-    access: typeof ExportAccess;
+    jwt: typeof ExportJwt;
     local: typeof ExportLocal;
   }
 }

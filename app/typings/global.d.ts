@@ -3,6 +3,8 @@ declare module 'egg' {
   interface Application {
     db: DB;
     mysql: any;
+    passport: any;
+    jwt: any;
   }
 
   interface Context {
