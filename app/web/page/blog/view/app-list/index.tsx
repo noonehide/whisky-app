@@ -1,6 +1,9 @@
 import React from 'react'
 import { Layout, Table } from 'antd';
 import AdvancedSearchForm from './components/search-form';
+import ContentWrap from '@component/content-wrap';
+import request from '@framework/request'
+import './style.css'
 const { Content } = Layout;
 
 export default class Home extends React.Component {
@@ -43,25 +46,28 @@ export default class Home extends React.Component {
   };
 
   componentDidMount() {
+    request.get('/app/list').then(res => {
 
+    })
   }
 
   render() {
     return (
       <div className="app-list-container">
-        <Layout>
-          <AdvancedSearchForm/>
-
+        <Layout style={{ minHeight: '100vh' }}>
+          <ContentWrap>
+            <AdvancedSearchForm />
+          </ContentWrap>
           <Content
             className="site-layout-background"
             style={{
-              margin: '24px 16px',
-              padding: 24,
+              margin: '20px',
+              padding: 20,
               minHeight: 280,
             }}
           >
             <Table dataSource={this.state.dataSource} columns={this.state.columns} />
-            </Content>
+          </Content>
         </Layout>
       </div>
     );

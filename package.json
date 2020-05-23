@@ -40,7 +40,9 @@
     "babel-plugin-import": "^1.13.0",
     "less": "^2.7.2",
     "less-loader": "^4.0.5",
-    "sequelize-cli": "^5.5.1"
+    "prettier": "^2.0.5",
+    "sequelize-cli": "^5.5.1",
+    "tslint-config-prettier": "^1.18.0"
   },
   "egg": {
     "typescript": true

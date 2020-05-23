@@ -16,3 +16,6 @@ interface NodeModule {
     accept: any;
   }
 }
+
+declare module '*.css'
+declare module '*.less'

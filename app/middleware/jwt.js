@@ -1,6 +1,5 @@
 const fs = require('fs')
 const path = require('path')
-const jwt = require('jsonwebtoken') //引入jsonwebtoken
 
 module.exports = (options, app) => {
   return async function userinterceptor(ctx, next) {
@@ -12,10 +11,10 @@ module.exports = (options, app) => {
       // find user from database
       const existsUser = await ctx.model.User.findOne({ id: user.payload.sub });
       if (existsUser) return existsUser;
-  
+
       // or you could create a new user
       console.log('create new user')
-  
+
     });
   }
 }

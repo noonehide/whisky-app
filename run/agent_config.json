@@ -194,7 +194,7 @@
           "entry": {
             "blog": [
               "react-hot-loader/patch",
-              "/Users/jianghui/Code/my_code/whisky-app/node_modules/_webpack-hot-middleware@2.25.0@webpack-hot-middleware/client?path=http://172.18.252.34:9008/__webpack_hmr&noInfo=false&reload=false&quiet=false",
+              "/Users/jianghui/Code/my_code/whisky-app/node_modules/_webpack-hot-middleware@2.25.0@webpack-hot-middleware/client?path=http://172.18.252.34:9000/__webpack_hmr&noInfo=false&reload=false&quiet=false",
               "/Users/jianghui/Code/my_code/whisky-app/node_modules/_@easy-team_easywebpack@4.2.7@@easy-team/easywebpack/utils/hot.js",
               "/Users/jianghui/Code/my_code/whisky-app/app/web/page/blog/index.tsx"
             ]
@@ -216,7 +216,16 @@
               "react-dom": "@hot-loader/react-dom",
               "asset": "/Users/jianghui/Code/my_code/whisky-app/app/web/asset",
               "component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
-              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework"
+              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@": "/Users/jianghui/Code/my_code/whisky-app/app",
+              "@controller": "/Users/jianghui/Code/my_code/whisky-app/app/controller",
+              "@extend": "/Users/jianghui/Code/my_code/whisky-app/app/extend",
+              "@model": "/Users/jianghui/Code/my_code/whisky-app/app/model",
+              "@service": "/Users/jianghui/Code/my_code/whisky-app/app/service",
+              "@web": "/Users/jianghui/Code/my_code/whisky-app/app/web",
+              "@component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
+              "@framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@blog": "/Users/jianghui/Code/my_code/whisky-app/app/web/page/blog"
             }
           },
           "externals": [],
@@ -563,7 +572,7 @@
                 "EASY_ENV_IS_NODE": false,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9008\""
+                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -587,7 +596,7 @@
                 "generate": null,
                 "sort": null,
                 "baseDir": "/Users/jianghui/Code/my_code/whisky-app",
-                "host": "http://172.18.252.34:9008",
+                "host": "http://172.18.252.34:9000",
                 "proxy": true,
                 "buildPath": "/Users/jianghui/Code/my_code/whisky-app/app/public",
                 "publicPath": "/public/",
@@ -694,7 +703,16 @@
             "alias": {
               "asset": "/Users/jianghui/Code/my_code/whisky-app/app/web/asset",
               "component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
-              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework"
+              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@": "/Users/jianghui/Code/my_code/whisky-app/app",
+              "@controller": "/Users/jianghui/Code/my_code/whisky-app/app/controller",
+              "@extend": "/Users/jianghui/Code/my_code/whisky-app/app/extend",
+              "@model": "/Users/jianghui/Code/my_code/whisky-app/app/model",
+              "@service": "/Users/jianghui/Code/my_code/whisky-app/app/service",
+              "@web": "/Users/jianghui/Code/my_code/whisky-app/app/web",
+              "@component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
+              "@framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@blog": "/Users/jianghui/Code/my_code/whisky-app/app/web/page/blog"
             }
           },
           "externals": [
@@ -1013,7 +1031,7 @@
                 "EASY_ENV_IS_NODE": true,
                 "EASY_ENV_LOCAL_PUBLIC_PATH": "\"/public/\"",
                 "EASY_ENV_PUBLIC_PATH": "\"/public/\"",
-                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9008\""
+                "EASY_ENV_HOST_URL": "\"http://172.18.252.34:9000\""
               },
               "__plugin__": "DefinePlugin",
               "__lable__": "define"
@@ -1157,7 +1175,9 @@
         "babel-plugin-import": "^1.13.0",
         "less": "^2.7.2",
         "less-loader": "^4.0.5",
-        "sequelize-cli": "^5.5.1"
+        "prettier": "^2.0.5",
+        "sequelize-cli": "^5.5.1",
+        "tslint-config-prettier": "^1.18.0"
       },
       "egg": {
         "typescript": true

@@ -1,5 +1,5 @@
 import { Controller, Context } from 'egg';
-import * as shortid from 'shortid'
+import * as shortid from 'shortid';
 
 export default class UserController extends Controller {
   public async test(ctx: Context) {
@@ -16,12 +16,14 @@ export default class UserController extends Controller {
 
   public async login(ctx: Context) {
     const { username, password } = this.ctx.request.body;
+    const user = await this.ctx.model.User.findOne({ where: { username, password } });
     // 从数据库中查询
-    if (username && password) {
+    if (user.userid) {
       try {
         const token = await this.ctx.service.user.createToken({
           username,
-          password
+          password,
+          userid: user.userid
         });
         ctx.body = JSON.stringify({
           code: 0,

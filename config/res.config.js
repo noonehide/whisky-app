@@ -9,6 +9,20 @@ module.exports = {
   entry: {
     blog: 'app/web/page/blog/index.tsx'
   },
+  resolve: {
+    // 设置别名
+    alias: {
+      '@': resolve('../app'),
+      '@controller': resolve('../app/controller'),
+      '@extend': resolve('../app/extend'),
+      '@model': resolve('../app/model'),
+      '@service': resolve('../app/service'),
+      '@web': resolve('../app/web'),
+      '@component': resolve('../app/web/component'),
+      '@framework': resolve('../app/web/framework'),
+      '@blog': resolve('../app/web/page/blog'),
+    }
+  },
   module: {
     rules: [
       {

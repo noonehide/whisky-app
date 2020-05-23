@@ -259,7 +259,16 @@
               "react-dom": "@hot-loader/react-dom",
               "asset": "/Users/jianghui/Code/my_code/whisky-app/app/web/asset",
               "component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
-              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework"
+              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@": "/Users/jianghui/Code/my_code/whisky-app/app",
+              "@controller": "/Users/jianghui/Code/my_code/whisky-app/app/controller",
+              "@extend": "/Users/jianghui/Code/my_code/whisky-app/app/extend",
+              "@model": "/Users/jianghui/Code/my_code/whisky-app/app/model",
+              "@service": "/Users/jianghui/Code/my_code/whisky-app/app/service",
+              "@web": "/Users/jianghui/Code/my_code/whisky-app/app/web",
+              "@component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
+              "@framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@blog": "/Users/jianghui/Code/my_code/whisky-app/app/web/page/blog"
             }
           },
           "externals": [],
@@ -737,7 +746,16 @@
             "alias": {
               "asset": "/Users/jianghui/Code/my_code/whisky-app/app/web/asset",
               "component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
-              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework"
+              "framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@": "/Users/jianghui/Code/my_code/whisky-app/app",
+              "@controller": "/Users/jianghui/Code/my_code/whisky-app/app/controller",
+              "@extend": "/Users/jianghui/Code/my_code/whisky-app/app/extend",
+              "@model": "/Users/jianghui/Code/my_code/whisky-app/app/model",
+              "@service": "/Users/jianghui/Code/my_code/whisky-app/app/service",
+              "@web": "/Users/jianghui/Code/my_code/whisky-app/app/web",
+              "@component": "/Users/jianghui/Code/my_code/whisky-app/app/web/component",
+              "@framework": "/Users/jianghui/Code/my_code/whisky-app/app/web/framework",
+              "@blog": "/Users/jianghui/Code/my_code/whisky-app/app/web/page/blog"
             }
           },
           "externals": [
@@ -1200,7 +1218,9 @@
         "babel-plugin-import": "^1.13.0",
         "less": "^2.7.2",
         "less-loader": "^4.0.5",
-        "sequelize-cli": "^5.5.1"
+        "prettier": "^2.0.5",
+        "sequelize-cli": "^5.5.1",
+        "tslint-config-prettier": "^1.18.0"
       },
       "egg": {
         "typescript": true

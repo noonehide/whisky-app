@@ -29,7 +29,7 @@ const CollectionCreateForm: React.FC<CollectionCreateFormProps> = ({
       onOk={() => {
         form
           .validateFields()
-          .then((values: any)=> {
+          .then((values: any) => {
             form.resetFields();
             onCreate(values);
           })
@@ -51,12 +51,12 @@ const CollectionCreateForm: React.FC<CollectionCreateFormProps> = ({
           <Input />
         </Form.Item>
 
-        <Form.Item 
-            name="des" 
-            label="应用描述"
-            rules={[{ required: true, message: '请输入应用描述!' }]}
+        <Form.Item
+          name="des"
+          label="应用描述"
+          rules={[{ required: true, message: '请输入应用描述!' }]}
         >
-            <Input />
+          <Input />
         </Form.Item>
       </Form>
     </Modal>

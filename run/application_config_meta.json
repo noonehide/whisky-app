@@ -277,7 +277,9 @@
       "babel-plugin-import": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js",
       "less": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js",
       "less-loader": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js",
-      "sequelize-cli": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js"
+      "prettier": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "sequelize-cli": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js",
+      "tslint-config-prettier": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js"
     },
     "egg": {
       "typescript": "/Users/jianghui/Code/my_code/whisky-app/node_modules/_egg@2.26.1@egg/config/config.default.js"
