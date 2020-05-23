@@ -1,25 +1,36 @@
 {
-    "defaultSeverity": "error",
-    "extends": [
-      "tslint:recommended"
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "member-access": false,
+    "ordered-imports": false,
+    "trailing-comma": false,
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
     ],
-    "jsRules": {},
-    "rules": {
-      "member-access": false, 
-      "ordered-imports": false,
-      "trailing-comma": false,
-      "quotemark": [true, "single", "jsx-double"],
-      "eofline": false,
-      "object-literal-sort-keys": false,
-      "interface-name": false,
-      "arrow-parens": false,
-      "no-console": false,
-      "max-line-length": false,
-      "only-arrow-functions": false,
-      "max-classes-per-file": [true, 3, "exclude-class-expressions"]
-    },
-    "paths": {
-      "component": "app/web/component"
-    },
-    "rulesDirectory": ["app"]
-  }
+    "eofline": false,
+    "object-literal-sort-keys": false,
+    "interface-name": false,
+    "arrow-parens": false,
+    "no-console": false,
+    "max-line-length": false,
+    "only-arrow-functions": false,
+    "max-classes-per-file": [
+      true,
+      3,
+      "exclude-class-expressions"
+    ]
+  },
+  "paths": {
+    "component": "app/web/component"
+  },
+  "rulesDirectory": [
+    "app"
+  ]
+}

@@ -4,7 +4,7 @@ export default class UserService extends Service {
 
   public async createToken(data) {
     return this.app.jwt.sign(data, this.app.config.jwt.secret, {
-      expiresIn: "12h"
+      expiresIn: '12h'
     });
   }
 
@@ -15,15 +15,15 @@ export default class UserService extends Service {
   public async verifyToken(token) {
     return new Promise((resolve, reject) => {
       this.app.jwt.verify(token, this.app.config.jwt.secret, function (err, decoded) {
-        let result = {} as any;
+        const result = {} as any;
         if (err) {
-        /*
-          err = {
-            name: 'TokenExpiredError',
-            message: 'jwt expired',
-            expiredAt: 1408621000
-          }
-        */
+          /*
+            err = {
+              name: 'TokenExpiredError',
+              message: 'jwt expired',
+              expiredAt: 1408621000
+            }
+          */
           result.verify = false;
           result.message = err.message;
         } else {

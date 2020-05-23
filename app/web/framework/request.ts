@@ -1,7 +1,7 @@
 'use strict';
 import axios from 'axios';
 import Cookies from 'js-cookie';
-
+import { message } from 'antd'
 // axios.defaults.baseURL = 'http://127.0.0.1:7001';
 axios.defaults.timeout = 15000;
 axios.defaults.xsrfHeaderName = 'x-csrf-token';
@@ -16,10 +16,12 @@ axios.interceptors.request.use(function (config) {
   return Promise.reject(error);
 });
 
-axios.interceptors.response.use((response) => {
+axios.interceptors.response.use((response: any) => {
   if (response.status === 200) {
     if (response.data.code === 0) {
       return response.data
+    } else {
+      message.error(response.data.message)
     }
   }
   return Promise.reject(response)
@@ -34,8 +36,10 @@ export default {
     const res = await axios.post(`${locals.origin}${url}`, json);
     return res.data;
   },
-  async get(url, locals: any = {}) {
-    const res = await axios.get(`${locals.origin}${url}`);
+  async get(url, params, locals: any = {
+    origin: '/api'
+  }) {
+    const res = await axios.get(`${locals.origin}${url}`, params);
     return res.data;
   }
 };

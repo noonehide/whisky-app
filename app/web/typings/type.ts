@@ -1,4 +1,3 @@
-import ConfigStore from '../page/antd/store/config';
 
 export interface TabProps {
   title: string;
@@ -7,8 +6,4 @@ export interface TabProps {
   message: {
     text: string
   };
-}
-
-export interface StoreProps {
-  configStore?: ConfigStore
 }

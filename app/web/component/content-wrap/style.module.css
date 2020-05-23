@@ -1,0 +1,8 @@
+.wrap {
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px 0 rgba(200, 201, 204, 0.5);
+}

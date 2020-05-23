@@ -21,6 +21,7 @@ exports.verifyToken = async (ctx, userId) => {
   return true;
 };
 
+
 // 处理成功响应
 exports.success = (ctx, result = null, message = "请求成功", status = 200) => {
   ctx.body = {
@@ -32,10 +33,10 @@ exports.success = (ctx, result = null, message = "请求成功", status = 200) =
 };
 
 // 处理失败响应
-exports.error = (ctx, code, message) => {
+exports.error = (ctx, message) => {
   ctx.body = {
-    code: code,
+    code: -1,
     message: message
   };
-  ctx.status = code;
+  ctx.status = 200;
 };

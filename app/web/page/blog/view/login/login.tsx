@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Form, Input, Button, Checkbox } from 'antd';
-import { Wrap } from '../../../../component/wrap'
-import request from '../../../../framework/request';
-import { withRouter } from 'react-router'
-import Cookies from 'js-cookie'
+import { Wrap } from '@component/wrap';
+import request from '@framework/request';
+import { withRouter } from 'react-router';
+import Cookies from 'js-cookie';
 
 const layout = {
   labelCol: { span: 8 },
@@ -19,10 +19,9 @@ export default class Login extends React.Component<any, any> {
   onFinish = values => {
     console.log('Success:', values);
     request.post('/blog/login', values).then(res => {
-      console.log('res', res)
-      Cookies.set('token', res.access_token)
-      this.props.history.push('/home')
-    })
+      Cookies.set('token', res.access_token);
+      this.props.history.push('/app-list');
+    });
   }
 
   onFinishFailed = errorInfo => {
