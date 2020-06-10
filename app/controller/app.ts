@@ -8,6 +8,15 @@ export default class AppController extends Controller {
     const userid = this.ctx.state.user.userid
     // 到relation表查出所有的appid
     // 拿appid查出app信息
+    const result = await this.ctx.model.User.findAll({
+      where: { userid },
+      include: {
+        model: this.ctx.model.App,
+        through: this.ctx.model.UserAppRelation,
+      },
+    });
+
+    this.ctx.helper.success(ctx, result)
   }
 
   public async create(ctx: Context) {

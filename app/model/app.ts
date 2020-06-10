@@ -9,5 +9,9 @@ module.exports = app => {
         created_at: DATE,
         updated_at: DATE,
     });
+
+    App.associate = function () {
+        app.model.App.belongsToMany(app.model.User, { through: app.model.UserAppRelation, foreignKey: 'appid' });
+    }
     return App;
 };

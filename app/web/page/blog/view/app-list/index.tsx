@@ -46,6 +46,10 @@ export default class Home extends React.Component {
   };
 
   componentDidMount() {
+
+  }
+
+  handleQuery = () => {
     request.get('/app/list').then(res => {
 
     })
@@ -56,7 +60,7 @@ export default class Home extends React.Component {
       <div className="app-list-container">
         <Layout style={{ minHeight: '100vh' }}>
           <ContentWrap>
-            <AdvancedSearchForm />
+            <AdvancedSearchForm handleQuery={this.handleQuery} />
           </ContentWrap>
           <Content
             className="site-layout-background"

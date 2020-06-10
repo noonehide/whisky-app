@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { Form, Row, Col, Input, Button } from 'antd';
 import CollectionCreateForm from './create-app-dialog';
 import request from '@framework/request'
-const AdvancedSearchForm = () => {
+const AdvancedSearchForm = (props) => {
+    const { handleQuery } = props
+
     const [form] = Form.useForm();
 
     const onFinish = values => {
@@ -44,7 +46,7 @@ const AdvancedSearchForm = () => {
 
                 <Row>
                     <Col span={24} style={{ textAlign: 'right' }}>
-                        <Button type="primary" htmlType="submit">
+                        <Button type="primary" onClick={handleQuery}>
                             查找
                         </Button>
                         <Button

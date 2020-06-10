@@ -36,7 +36,7 @@ export default {
     const res = await axios.post(`${locals.origin}${url}`, json);
     return res.data;
   },
-  async get(url, params, locals: any = {
+  async get(url, params: any = {}, locals: any = {
     origin: '/api'
   }) {
     const res = await axios.get(`${locals.origin}${url}`, params);
