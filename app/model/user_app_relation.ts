@@ -10,7 +10,19 @@ module.exports = app => {
     // 如果为 true 则表的名称和 model 相同，即 user_app_relation
     // 为 false MySQL创建的表名称会是复数 user_app_relations
     // 如果指定的表名称本就是复数形式则不变
-    freezeTableName: true
+    freezeTableName: true,
+    indexs: [
+      {
+        fields: ['userid', 'appid'],
+        unique: true,
+      },
+    ],
   });
+
+  UserAppRelation.associate = function () {
+    app.model.UserAppRelation.belongsTo(app.model.User, { foreignKey: 'userid', targetKey: 'userid' });
+    app.model.UserAppRelation.belongsTo(app.model.App, { foreignKey: 'appid', targetKey: 'appid' });
+  }
+
   return UserAppRelation;
 };

@@ -11,5 +11,9 @@ module.exports = app => {
     updated_at: DATE,
   });
 
+  User.associate = function () {
+    app.model.User.belongsToMany(app.model.App, { through: app.model.UserAppRelation, foreignKey: 'userid' });
+  }
+
   return User;
 };
