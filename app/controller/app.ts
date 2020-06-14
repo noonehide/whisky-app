@@ -6,17 +6,21 @@ export default class AppController extends Controller {
   public async list(ctx: Context) {
     // 拿到userid,
     const userid = this.ctx.state.user.userid
-    // 到relation表查出所有的appid
-    // 拿appid查出app信息
-    const result = await this.ctx.model.User.findAll({
+    const { appname } = this.ctx.query;
+    const result = await this.ctx.model.User.findOne({
       where: { userid },
-      include: {
-        model: this.ctx.model.App,
-        through: this.ctx.model.UserAppRelation,
-      },
+      include: [
+        {
+          model: this.ctx.model.App,
+          where: { appname }
+        },
+      ]
     });
-
-    this.ctx.helper.success(ctx, result)
+    if (result) {
+      this.ctx.helper.success(ctx, result)
+    } else {
+      this.ctx.helper.error(ctx, '没有此app名称')
+    }
   }
 
   public async create(ctx: Context) {
@@ -33,6 +37,7 @@ export default class AppController extends Controller {
       await this.ctx.model.UserAppRelation.create({ appid, userid });
       this.ctx.helper.success(ctx)
     } catch (error) {
+      console.log('create error', error)
       this.ctx.helper.error(ctx, '已存在该app!')
     }
   }

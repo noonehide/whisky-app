@@ -39,7 +39,7 @@ export default {
   async get(url, params: any = {}, locals: any = {
     origin: '/api'
   }) {
-    const res = await axios.get(`${locals.origin}${url}`, params);
+    const res = await axios.get(`${locals.origin}${url}`, { params });
     return res.data;
   }
 };
