@@ -18,7 +18,7 @@ export default class UserController extends Controller {
     const { username, password } = this.ctx.request.body;
     const user = await this.ctx.model.User.findOne({ where: { username, password } });
     // 从数据库中查询
-    if (user.userid) {
+    if (user && user.userid) {
       try {
         const token = await this.ctx.service.user.createToken({
           username,
@@ -32,6 +32,8 @@ export default class UserController extends Controller {
       } catch (err) {
         ctx.state = 401;
       }
+    } else {
+      this.ctx.helper.error(ctx, '不存在该用户')
     }
   }
 }

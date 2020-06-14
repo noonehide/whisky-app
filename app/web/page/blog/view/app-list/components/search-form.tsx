@@ -19,6 +19,11 @@ const AdvancedSearchForm = (props) => {
         })
     };
 
+    const onQuery = () => {
+        const appname = form.getFieldValue('appname')
+        handleQuery(appname)
+    }
+
     return (
         <>
             <Form
@@ -46,7 +51,7 @@ const AdvancedSearchForm = (props) => {
 
                 <Row>
                     <Col span={24} style={{ textAlign: 'right' }}>
-                        <Button type="primary" onClick={handleQuery}>
+                        <Button type="primary" onClick={onQuery}>
                             查找
                         </Button>
                         <Button

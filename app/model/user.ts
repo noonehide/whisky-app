@@ -1,9 +1,13 @@
 module.exports = app => {
   const { STRING, INTEGER, DATE } = app.Sequelize;
 
-  const User = app.model.define('user', {
+  const User = app.model.define('users', {
     id: { type: INTEGER, primaryKey: true, autoIncrement: true },
-    userid: STRING(30),
+    userid: {
+      type: STRING(30),
+      primaryKey: true,
+      allowNull: false
+    },
     username: STRING(30),
     password: STRING(100),
     nickname: STRING(10),
@@ -12,7 +16,7 @@ module.exports = app => {
   });
 
   User.associate = function () {
-    app.model.User.belongsToMany(app.model.App, { through: app.model.UserAppRelation, foreignKey: 'userid' });
+    app.model.User.belongsToMany(app.model.App, { through: app.model.UserAppRelation, sourceKey: 'userid', foreignKey: 'userid', otherKey: 'appid' });
   }
 
   return User;

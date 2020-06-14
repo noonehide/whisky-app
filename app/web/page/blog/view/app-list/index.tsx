@@ -12,8 +12,8 @@ export default class Home extends React.Component {
     columns: [
       {
         title: '应用名称',
-        dataIndex: 'appName',
-        key: 'appName',
+        dataIndex: 'appname',
+        key: 'appname',
       },
       {
         title: 'PV',
@@ -46,12 +46,17 @@ export default class Home extends React.Component {
   };
 
   componentDidMount() {
-
+    this.handleQuery('')
   }
 
-  handleQuery = () => {
-    request.get('/app/list').then(res => {
-
+  handleQuery = (appname) => {
+    console.log('appname', appname)
+    request.get('/app/list', {
+      appname
+    }).then(res => {
+      this.setState({
+        dataSource: res.apps
+      })
     })
   }
 
