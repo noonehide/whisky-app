@@ -16,6 +16,7 @@
     "@easy-team/res": "^2.0.0",
     "antd": "^4.2.2",
     "axios": "^0.19.2",
+    "co-body": "^6.0.0",
     "egg-jwt": "^3.1.7",
     "egg-mysql": "^3.0.0",
     "egg-redis": "^2.4.0",
@@ -36,6 +37,7 @@
   },
   "devDependencies": {
     "@easy-team/res-cli": "^2.0.0",
+    "@types/co-body": "^5.1.0",
     "@types/shortid": "^0.0.29",
     "babel-plugin-import": "^1.13.0",
     "less": "^2.7.2",

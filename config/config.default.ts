@@ -23,5 +23,14 @@ export default function (app: EggAppConfig) {
     ignore: ['/', '/api/blog/login/', '/public/'], // 哪些请求不需要认证
   };
 
+  config.security = {
+    csrf: {
+      enable: false
+    },
+  }
+
+  config.bodyParser = {
+    ignore: ['/api/event/create']
+  }
   return config;
 }

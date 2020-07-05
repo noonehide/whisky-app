@@ -1,5 +1,6 @@
 import { Controller, Context } from 'egg';
 import * as shortid from 'shortid'
+import Sequelize from 'sequelize'
 
 export default class AppController extends Controller {
 
@@ -7,19 +8,27 @@ export default class AppController extends Controller {
     // 拿到userid,
     const userid = this.ctx.state.user.userid
     const { appname } = this.ctx.query;
+
+    const whereParams: any = {}
+    if (appname) {
+      whereParams.appname = { [Sequelize.Op.like]: `%${appname}%` }
+    }
+
+
     const result = await this.ctx.model.User.findOne({
       where: { userid },
       include: [
         {
+          required: false,
           model: this.ctx.model.App,
-          where: { appname }
+          where: whereParams
         },
       ]
     });
     if (result) {
       this.ctx.helper.success(ctx, result)
     } else {
-      this.ctx.helper.error(ctx, '没有此app名称')
+      this.ctx.helper.success(ctx, [])
     }
   }
 
