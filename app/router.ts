@@ -9,5 +9,8 @@ export default (app: Application) => {
   router.post('/api/app/create', app.jwt, controller.app.create);
   router.get('/api/app/list', app.jwt, controller.app.list);
 
+  // 上传日志
+  router.post('/api/event/create', controller.event.create);
+
   router.get('/(.*?)', controller.blog.home);
 };
